@@ -12,8 +12,6 @@ Utilitaires partagés entre toutes les pages :
 
 import json
 from pathlib import Path
-from functools import lru_cache
-
 import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
@@ -39,7 +37,7 @@ QUAL_COLORS = ["#4f46e5","#06b6d4","#10b981","#f59e0b","#ef4444","#8b5cf6","#ec4
 
 # ── Chargement données ────────────────────────────────────────────────────────
 
-@lru_cache(maxsize=None)
+@st.cache_data
 def load_json(name: str) -> dict:
     """Charge un JSON depuis data/processed/. Retourne {} si absent."""
     path = _PROCESSED / f"{name}.json"
@@ -48,7 +46,7 @@ def load_json(name: str) -> dict:
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
-@lru_cache(maxsize=None)
+@st.cache_data
 def load_csv(name: str) -> pd.DataFrame:
     """Charge un CSV depuis data/clean/. Retourne DataFrame vide si absent."""
     path = _CLEAN / f"{name}.csv"
@@ -63,8 +61,8 @@ def has_data(name: str) -> bool:
 
 def invalidate_cache():
     """Vide le cache (utile après re-run pipeline)."""
-    load_json.cache_clear()
-    load_csv.cache_clear()
+    load_json.clear()
+    load_csv.clear()
 
 
 # ── Thème Plotly ─────────────────────────────────────────────────────────────
@@ -83,7 +81,8 @@ def theme(fig: go.Figure, height: int = 380) -> go.Figure:
             borderwidth = 1,
             font        = dict(size=11),
         ),
-        title_font      = dict(size=13, color=SLATE, family="DM Sans"),
+        # title_font a été commenté pour éviter le bug "undefined" au-dessus des graphes
+        # title_font      = dict(size=13, color=SLATE, family="DM Sans"),
         hoverlabel      = dict(
             bgcolor    = SLATE,
             font_color = WHITE,
