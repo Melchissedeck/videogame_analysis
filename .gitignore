@@ -1,0 +1,26 @@
+# Environnement virtuel
+.venv/
+
+
+# Variables d'environnement
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Données brutes (souvent volumineuses)
+data/raw/*.csv
+data/clean/*.csv
+data/processed/*.json
+
+# VSCode
+.vscode/settings.json
+
+
+# Logs
+*.log
+logs/
