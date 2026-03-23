@@ -1,0 +1,522 @@
+{
+  "descriptive_stats": {
+    "market_cap_usd_bn": {
+      "count": 50.0,
+      "mean": 28.62,
+      "std": 59.49,
+      "min": 0.7,
+      "q25": 2.82,
+      "median": 7.65,
+      "q75": 21.7,
+      "max": 380.0
+    },
+    "revenue_usd_bn": {
+      "count": 50.0,
+      "mean": 5.36,
+      "std": 13.2,
+      "min": 0.04,
+      "q25": 0.21,
+      "median": 1.25,
+      "q75": 3.18,
+      "max": 86.0
+    },
+    "employees": {
+      "count": 50.0,
+      "mean": 11979.4,
+      "std": 28711.73,
+      "min": 50.0,
+      "q25": 650.0,
+      "median": 3450.0,
+      "q75": 8925.0,
+      "max": 164000.0
+    },
+    "company_age": {
+      "count": 50.0,
+      "mean": 25.74,
+      "std": 13.52,
+      "min": 6.0,
+      "q25": 16.5,
+      "median": 25.0,
+      "q75": 31.0,
+      "max": 80.0
+    },
+    "ratio_cap_revenue": {
+      "count": 50.0,
+      "mean": 9.94,
+      "std": 6.16,
+      "min": 1.65,
+      "q25": 4.91,
+      "median": 7.76,
+      "q75": 14.96,
+      "max": 24.0
+    }
+  },
+  "market_concentration": {
+    "total_market_cap_bn": 1430.8,
+    "total_revenue_bn": 268.0,
+    "top5_cap_share_pct": 55.5,
+    "top10_cap_share_pct": 77.6,
+    "top5_revenue_share_pct": 64.6,
+    "top5_companies": [
+      {
+        "rank": 1,
+        "name": "Tencent Holdings",
+        "country": "China",
+        "market_cap_usd_bn": 380.0,
+        "revenue_usd_bn": 86.0
+      },
+      {
+        "rank": 2,
+        "name": "Sony Interactive Entertainment",
+        "country": "Japan",
+        "market_cap_usd_bn": 109.0,
+        "revenue_usd_bn": 28.9
+      },
+      {
+        "rank": 3,
+        "name": "Nintendo",
+        "country": "Japan",
+        "market_cap_usd_bn": 107.0,
+        "revenue_usd_bn": 14.8
+      },
+      {
+        "rank": 4,
+        "name": "Microsoft Gaming",
+        "country": "USA",
+        "market_cap_usd_bn": 100.0,
+        "revenue_usd_bn": 21.4
+      },
+      {
+        "rank": 5,
+        "name": "Apple (Gaming)",
+        "country": "USA",
+        "market_cap_usd_bn": 98.0,
+        "revenue_usd_bn": 22.0
+      }
+    ],
+    "herfindahl_index": 1047.0
+  },
+  "by_continent": [
+    {
+      "continent": "Asia",
+      "nb_entreprises": 18,
+      "cap_totale_bn": 878.8,
+      "cap_moyenne_bn": 48.82,
+      "rev_totale_bn": 175.8,
+      "rev_moyenne_bn": 9.77,
+      "employes_total": 304600,
+      "age_moyen": 30.72
+    },
+    {
+      "continent": "North America",
+      "nb_entreprises": 13,
+      "cap_totale_bn": 478.7,
+      "cap_moyenne_bn": 36.82,
+      "rev_totale_bn": 80.54,
+      "rev_moyenne_bn": 6.2,
+      "employes_total": 244550,
+      "age_moyen": 26.54
+    },
+    {
+      "continent": "Europe",
+      "nb_entreprises": 18,
+      "cap_totale_bn": 69.0,
+      "cap_moyenne_bn": 3.83,
+      "rev_totale_bn": 9.1,
+      "rev_moyenne_bn": 0.51,
+      "employes_total": 45920,
+      "age_moyen": 20.83
+    },
+    {
+      "continent": "Middle East",
+      "nb_entreprises": 1,
+      "cap_totale_bn": 4.3,
+      "cap_moyenne_bn": 4.3,
+      "rev_totale_bn": 2.6,
+      "rev_moyenne_bn": 2.6,
+      "employes_total": 3900,
+      "age_moyen": 14.0
+    }
+  ],
+  "by_country": [
+    {
+      "country": "USA",
+      "nb_entreprises": 13,
+      "cap_totale_bn": 478.7,
+      "rev_totale_bn": 80.54,
+      "employes_total": 244550
+    },
+    {
+      "country": "China",
+      "nb_entreprises": 2,
+      "cap_totale_bn": 436.0,
+      "rev_totale_bn": 99.7,
+      "employes_total": 136000
+    },
+    {
+      "country": "Japan",
+      "nb_entreprises": 10,
+      "cap_totale_bn": 333.9,
+      "rev_totale_bn": 65.8,
+      "employes_total": 77900
+    },
+    {
+      "country": "South Korea",
+      "nb_entreprises": 5,
+      "cap_totale_bn": 56.9,
+      "rev_totale_bn": 7.5,
+      "employes_total": 23700
+    },
+    {
+      "country": "Singapore",
+      "nb_entreprises": 1,
+      "cap_totale_bn": 52.0,
+      "rev_totale_bn": 2.8,
+      "employes_total": 67000
+    },
+    {
+      "country": "Sweden",
+      "nb_entreprises": 5,
+      "cap_totale_bn": 19.2,
+      "rev_totale_bn": 4.2,
+      "employes_total": 19850
+    },
+    {
+      "country": "France",
+      "nb_entreprises": 3,
+      "cap_totale_bn": 17.3,
+      "rev_totale_bn": 2.62,
+      "employes_total": 20350
+    },
+    {
+      "country": "Poland",
+      "nb_entreprises": 2,
+      "cap_totale_bn": 15.9,
+      "rev_totale_bn": 0.88,
+      "employes_total": 1200
+    },
+    {
+      "country": "UK",
+      "nb_entreprises": 3,
+      "cap_totale_bn": 5.2,
+      "rev_totale_bn": 0.32,
+      "employes_total": 1520
+    },
+    {
+      "country": "Israel",
+      "nb_entreprises": 1,
+      "cap_totale_bn": 4.3,
+      "rev_totale_bn": 2.6,
+      "employes_total": 3900
+    },
+    {
+      "country": "Finland",
+      "nb_entreprises": 1,
+      "cap_totale_bn": 3.5,
+      "rev_totale_bn": 0.21,
+      "employes_total": 600
+    },
+    {
+      "country": "Italy",
+      "nb_entreprises": 1,
+      "cap_totale_bn": 3.2,
+      "rev_totale_bn": 0.4,
+      "employes_total": 700
+    },
+    {
+      "country": "Austria",
+      "nb_entreprises": 1,
+      "cap_totale_bn": 2.3,
+      "rev_totale_bn": 0.3,
+      "employes_total": 1200
+    },
+    {
+      "country": "Czech Republic",
+      "nb_entreprises": 1,
+      "cap_totale_bn": 1.7,
+      "rev_totale_bn": 0.09,
+      "employes_total": 250
+    },
+    {
+      "country": "Germany",
+      "nb_entreprises": 1,
+      "cap_totale_bn": 0.7,
+      "rev_totale_bn": 0.08,
+      "employes_total": 250
+    }
+  ],
+  "correlations": {
+    "market_cap_usd_bn": {
+      "market_cap_usd_bn": 1.0,
+      "revenue_usd_bn": 0.972,
+      "employees": 0.675,
+      "company_age": 0.147
+    },
+    "revenue_usd_bn": {
+      "market_cap_usd_bn": 0.972,
+      "revenue_usd_bn": 1.0,
+      "employees": 0.681,
+      "company_age": 0.141
+    },
+    "employees": {
+      "market_cap_usd_bn": 0.675,
+      "revenue_usd_bn": 0.681,
+      "employees": 1.0,
+      "company_age": 0.234
+    },
+    "company_age": {
+      "market_cap_usd_bn": 0.147,
+      "revenue_usd_bn": 0.141,
+      "employees": 0.234,
+      "company_age": 1.0
+    }
+  },
+  "top_correlations": [
+    {
+      "col1": "market_cap_usd_bn",
+      "col2": "revenue_usd_bn",
+      "r": 0.972
+    },
+    {
+      "col1": "revenue_usd_bn",
+      "col2": "employees",
+      "r": 0.681
+    },
+    {
+      "col1": "market_cap_usd_bn",
+      "col2": "employees",
+      "r": 0.675
+    },
+    {
+      "col1": "employees",
+      "col2": "company_age",
+      "r": 0.234
+    },
+    {
+      "col1": "market_cap_usd_bn",
+      "col2": "company_age",
+      "r": 0.147
+    }
+  ],
+  "most_overcapped": [
+    {
+      "rank": 46,
+      "name": "GreenPark Sports",
+      "country": "UK",
+      "market_cap_usd_bn": 1.2,
+      "revenue_usd_bn": 0.05,
+      "ratio_cap_revenue": 24.0
+    },
+    {
+      "rank": 33,
+      "name": "Playway",
+      "country": "Poland",
+      "market_cap_usd_bn": 4.1,
+      "revenue_usd_bn": 0.18,
+      "ratio_cap_revenue": 22.78
+    },
+    {
+      "rank": 48,
+      "name": "Versus Evil",
+      "country": "USA",
+      "market_cap_usd_bn": 0.9,
+      "revenue_usd_bn": 0.04,
+      "ratio_cap_revenue": 22.5
+    },
+    {
+      "rank": 7,
+      "name": "Roblox Corporation",
+      "country": "USA",
+      "market_cap_usd_bn": 69.8,
+      "revenue_usd_bn": 3.6,
+      "ratio_cap_revenue": 19.39
+    },
+    {
+      "rank": 43,
+      "name": "Warhorse Studios",
+      "country": "Czech Republic",
+      "market_cap_usd_bn": 1.7,
+      "revenue_usd_bn": 0.09,
+      "ratio_cap_revenue": 18.89
+    },
+    {
+      "rank": 9,
+      "name": "Sea Limited (Garena)",
+      "country": "Singapore",
+      "market_cap_usd_bn": 52.0,
+      "revenue_usd_bn": 2.8,
+      "ratio_cap_revenue": 18.57
+    },
+    {
+      "rank": 47,
+      "name": "Starbreeze Studios",
+      "country": "Sweden",
+      "market_cap_usd_bn": 1.1,
+      "revenue_usd_bn": 0.06,
+      "ratio_cap_revenue": 18.33
+    },
+    {
+      "rank": 19,
+      "name": "CD Projekt",
+      "country": "Poland",
+      "market_cap_usd_bn": 11.8,
+      "revenue_usd_bn": 0.7,
+      "ratio_cap_revenue": 16.86
+    },
+    {
+      "rank": 35,
+      "name": "Remedy Entertainment",
+      "country": "Finland",
+      "market_cap_usd_bn": 3.5,
+      "revenue_usd_bn": 0.21,
+      "ratio_cap_revenue": 16.67
+    },
+    {
+      "rank": 44,
+      "name": "TinyBuild",
+      "country": "USA",
+      "market_cap_usd_bn": 1.5,
+      "revenue_usd_bn": 0.09,
+      "ratio_cap_revenue": 16.67
+    }
+  ],
+  "most_efficient": [
+    {
+      "rank": 3,
+      "name": "Nintendo",
+      "country": "Japan",
+      "revenue_per_employee": 2114286.0,
+      "employees": 7000,
+      "revenue_usd_bn": 14.8
+    },
+    {
+      "rank": 33,
+      "name": "Playway",
+      "country": "Poland",
+      "revenue_per_employee": 1800000.0,
+      "employees": 100,
+      "revenue_usd_bn": 0.18
+    },
+    {
+      "rank": 21,
+      "name": "Epic Games",
+      "country": "USA",
+      "revenue_per_employee": 1500000.0,
+      "employees": 4000,
+      "revenue_usd_bn": 6.0
+    },
+    {
+      "rank": 27,
+      "name": "GungHo Online",
+      "country": "Japan",
+      "revenue_per_employee": 1375000.0,
+      "employees": 800,
+      "revenue_usd_bn": 1.1
+    },
+    {
+      "rank": 37,
+      "name": "Devolver Digital",
+      "country": "USA",
+      "revenue_per_employee": 1166667.0,
+      "employees": 300,
+      "revenue_usd_bn": 0.35
+    },
+    {
+      "rank": 6,
+      "name": "Activision Blizzard",
+      "country": "USA",
+      "revenue_per_employee": 1000000.0,
+      "employees": 9500,
+      "revenue_usd_bn": 9.5
+    },
+    {
+      "rank": 2,
+      "name": "Sony Interactive Entertainment",
+      "country": "Japan",
+      "revenue_per_employee": 963333.0,
+      "employees": 30000,
+      "revenue_usd_bn": 28.9
+    },
+    {
+      "rank": 7,
+      "name": "Roblox Corporation",
+      "country": "USA",
+      "revenue_per_employee": 837209.0,
+      "employees": 4300,
+      "revenue_usd_bn": 3.6
+    },
+    {
+      "rank": 28,
+      "name": "Mixi",
+      "country": "Japan",
+      "revenue_per_employee": 833333.0,
+      "employees": 1200,
+      "revenue_usd_bn": 1.0
+    },
+    {
+      "rank": 48,
+      "name": "Versus Evil",
+      "country": "USA",
+      "revenue_per_employee": 800000.0,
+      "employees": 50,
+      "revenue_usd_bn": 0.04
+    }
+  ],
+  "cap_outliers": {
+    "threshold_bn": 50.0,
+    "companies": [
+      {
+        "name": "Tencent Holdings",
+        "country": "China",
+        "market_cap_usd_bn": 380.0
+      },
+      {
+        "name": "Sony Interactive Entertainment",
+        "country": "Japan",
+        "market_cap_usd_bn": 109.0
+      },
+      {
+        "name": "Nintendo",
+        "country": "Japan",
+        "market_cap_usd_bn": 107.0
+      },
+      {
+        "name": "Microsoft Gaming",
+        "country": "USA",
+        "market_cap_usd_bn": 100.0
+      },
+      {
+        "name": "Apple (Gaming)",
+        "country": "USA",
+        "market_cap_usd_bn": 98.0
+      },
+      {
+        "name": "Activision Blizzard",
+        "country": "USA",
+        "market_cap_usd_bn": 95.0
+      },
+      {
+        "name": "Roblox Corporation",
+        "country": "USA",
+        "market_cap_usd_bn": 69.8
+      },
+      {
+        "name": "NetEase",
+        "country": "China",
+        "market_cap_usd_bn": 56.0
+      },
+      {
+        "name": "Sea Limited (Garena)",
+        "country": "Singapore",
+        "market_cap_usd_bn": 52.0
+      }
+    ]
+  },
+  "age_distribution": {
+    "0–10 ans": 3,
+    "10–20 ans": 18,
+    "20–30 ans": 15,
+    "30–50 ans": 12,
+    "50+ ans": 2
+  }
+}

@@ -1,0 +1,6 @@
+file,rows,cols,size_kb,status,generated_at
+companies_clean.csv,50,12,3.9,✅ OK,2026-03-22 23:21:35
+rawg_games_clean.csv,200,20,35.9,✅ OK,2026-03-22 23:21:35
+steamspy_clean.csv,2978,19,424.7,✅ OK,2026-03-22 23:21:35
+geo_players_clean.csv,6,8,0.4,✅ OK,2026-03-22 23:21:35
+jobs_clean.csv,81,8,5.7,✅ OK,2026-03-22 23:21:35

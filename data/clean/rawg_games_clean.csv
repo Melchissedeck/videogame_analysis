@@ -1,0 +1,201 @@
+id,name,released,metacritic,rating,ratings_count,reviews_count,playtime_hours,genres,platforms,esrb_rating,slug,release_year,decade,genre_primary,genre_count,rating_10,composite_score,popularity_log,platform_primary
+25097,The Legend of Zelda: Ocarina of Time,1998-11-21,99,4.38,873,882,7,"Action, Adventure, RPG","Nintendo Switch, Nintendo 64",Everyone,the-legend-of-zelda-ocarina-of-time,1998,1990s,Action,3,8.76,94.4,6.773,Nintendo Switch
+54751,Soulcalibur,1998-07-30,98,4.38,85,86,6,"Action, Fighting","Xbox One, iOS, Xbox 360, Android, Dreamcast",Not Rated,soulcalibur,1998,1990s,Action,2,8.76,93.8,4.454,Xbox One
+407559,Soulcalibur (1998),1998-07-30,98,0.0,0,0,0,Fighting,"Dreamcast, Xbox 360",Teen,soulcalibur-1998,1998,1990s,Fighting,1,0.0,58.8,0.0,Dreamcast
+22511,The Legend of Zelda: Breath of the Wild,2017-03-03,97,4.47,3180,3245,121,"Action, Adventure, RPG","Nintendo Switch, Wii U",Everyone 10+,the-legend-of-zelda-breath-of-the-wild,2017,2010s,Action,3,8.94,94.0,8.065,Nintendo Switch
+28026,Super Mario Odyssey,2017-10-27,97,4.42,1921,1955,0,"Arcade, Platformer",Nintendo Switch,Everyone 10+,super-mario-odyssey,2017,2010s,Arcade,2,8.84,93.6,7.561,Nintendo Switch
+324997,Baldur's Gate III,2023-08-03,97,4.44,1007,1041,20,"Adventure, RPG, Strategy","macOS, PC, Xbox Series S/X, PlayStation 5",Mature,baldurs-gate-3,2023,2020s,Adventure,3,8.88,93.7,6.916,macOS
+27024,Super Mario Galaxy,2007-11-01,97,4.35,777,787,28,Platformer,"Nintendo Switch, Wii",Everyone,super-mario-galaxy,2007,2000s,Platformer,1,8.7,93.0,6.657,Nintendo Switch
+27036,Super Mario Galaxy 2,2010-05-23,97,4.34,421,430,18,Platformer,"Nintendo Switch, Wii, Wii U",Everyone,super-mario-galaxy-2,2010,2010s,Platformer,1,8.68,92.9,6.045,Nintendo Switch
+56123,Metroid Prime,2002-11-17,97,4.35,258,265,2,"Action, Shooter, Adventure","Wii, GameCube",Not Rated,metroid-prime,2002,2000s,Action,3,8.7,93.0,5.557,Wii
+28495,Perfect Dark,2000-05-22,97,3.98,176,177,10,"Action, Shooter","Xbox 360, Nintendo 64",Mature,perfect-dark,2000,2000s,Action,2,7.96,90.0,5.176,Xbox 360
+28,Red Dead Redemption 2,2018-10-26,96,4.59,5467,5599,21,Action,"PC, PlayStation 4, Xbox One",Mature,red-dead-redemption-2,2018,2010s,Action,1,9.18,94.3,8.607,PC
+13537,Half-Life 2,2004-11-16,96,4.48,4092,4120,7,"Action, Shooter","PC, macOS, Xbox 360, Linux, Xbox, Android",Mature,half-life-2,2004,2000s,Action,2,8.96,93.4,8.317,PC
+4286,BioShock,2007-08-21,96,4.36,3359,3403,3,"Action, Shooter","PlayStation 3, macOS, PC, Xbox 360",Mature,bioshock,2007,2000s,Action,2,8.72,92.5,8.12,PlayStation 3
+18080,Half-Life,1998-11-19,96,4.38,2438,2462,3,"Action, Shooter","Linux, macOS, PC, Dreamcast, PlayStation 2",Mature,half-life,1998,1990s,Action,2,8.76,92.6,7.799,Linux
+22513,Uncharted 2: Among Thieves,2009-10-13,96,4.38,1799,1819,13,"Action, Shooter","PlayStation 4, PlayStation 3",Teen,uncharted-2-among-thieves,2009,2000s,Action,2,8.76,92.6,7.496,PlayStation 4
+57842,Tekken 3,1997-03-20,96,4.37,560,561,1,Fighting,PlayStation,Not Rated,tekken-3,1997,1990s,Fighting,1,8.74,92.6,6.33,PlayStation
+52370,Metal Gear Solid 2: Sons of Liberty,2001-11-12,96,4.34,559,566,12,"Action, Shooter","PlayStation 2, PlayStation 3, PS Vita, Xbox 360, Xbox",Mature,metal-gear-solid-2-sons-of-liberty,2001,2000s,Action,2,8.68,92.3,6.328,PlayStation 2
+327239,The Legend of Zelda: Tears of the Kingdom,2023-05-12,96,4.38,481,495,0,"Action, Adventure",Nintendo Switch,Everyone 10+,the-legend-of-zelda-breath-of-the-wild-sequel,2023,2020s,Action,2,8.76,92.6,6.178,Nintendo Switch
+54403,GoldenEye 007 (1997),1997-08-23,96,4.37,197,201,0,Shooter,Nintendo 64,Not Rated,goldeneye-007-1997,1997,1990s,Shooter / FPS,1,8.74,92.6,5.288,Nintendo 64
+401808,Half-Life 2: Update,2015-03-27,96,4.13,126,127,1,Shooter,PC,Mature,half-life-2-update,2015,2010s,Shooter / FPS,1,8.26,90.6,4.844,PC
+52995,Gran Turismo,1997-12-22,96,4.33,108,109,0,Racing,PlayStation,Not Rated,gran-turismo,1997,1990s,Racing,1,8.66,92.2,4.691,PlayStation
+4200,Portal 2,2011-04-18,95,4.58,6082,6139,11,"Shooter, Puzzle","PlayStation 3, PC, Xbox 360, Linux, macOS, Xbox One",Everyone 10+,portal-2,2011,2010s,Shooter / FPS,2,9.16,93.6,8.713,PlayStation 3
+3990,The Last Of Us,2013-06-14,95,4.54,3346,3387,15,"Action, Adventure","PlayStation 3, PlayStation 4",Mature,the-last-of-us,2013,2010s,Action,2,9.08,93.3,8.116,PlayStation 3
+4459,Grand Theft Auto IV,2008-04-29,95,4.26,3100,3135,10,"Action, Adventure","Xbox 360, PC, PlayStation 3, Xbox One",Mature,grand-theft-auto-iv,2008,2000s,Action,2,8.52,91.1,8.039,Xbox 360
+3636,The Last Of Us Remastered,2014-07-29,95,4.69,2853,2883,16,"Action, Adventure",PlayStation 4,Mature,the-last-of-us-remastered,2014,2010s,Action,2,9.38,94.5,7.956,PlayStation 4
+4544,Red Dead Redemption,2010-05-18,95,4.42,2199,2220,6,"Action, Shooter","PlayStation 4, PC, Xbox Series S/X, PlayStation 5, Nintendo Switch, Xbox One, Xbox 360, PlayStation 3",Mature,red-dead-redemption,2010,2010s,Action,2,8.84,92.4,7.696,PlayStation 4
+10073,Divinity: Original Sin 2,2017-09-14,95,4.38,1666,1690,22,"RPG, Strategy","PlayStation 4, Nintendo Switch, PC, Xbox One",Mature,divinity-original-sin-2,2017,2010s,RPG,2,8.76,92.0,7.419,PlayStation 4
+326243,Elden Ring,2022-02-25,95,4.39,1447,1491,62,"Action, RPG","PC, Xbox One, PlayStation 4, Xbox Series S/X, PlayStation 5",Mature,elden-ring,2022,2020s,Action,2,8.78,92.1,7.278,PC
+25096,The Legend of Zelda: A Link to the Past,1991-11-21,95,4.35,579,586,28,"Action, Adventure","Wii, Game Boy Advance, SNES, Nintendo Switch, Nintendo 3DS, Wii U",Everyone,the-legend-of-zelda-a-link-to-the-past,1991,1990s,Action,2,8.7,91.8,6.363,Wii
+3179,LittleBigPlanet,2008-10-27,95,4.09,553,555,5,"Action, Arcade",PlayStation 3,Everyone 10+,littlebigplanet,2008,2000s,Action,2,8.18,89.7,6.317,PlayStation 3
+25924,The Legend of Zelda: Majora's Mask,2000-04-27,95,4.33,419,424,23,"Action, Adventure","Nintendo Switch, Nintendo 64",Everyone 10+,the-legend-of-zelda-majoras-mask,2000,2000s,Action,2,8.66,91.6,6.04,Nintendo Switch
+45958,XCOM 2: War of the Chosen,2017-08-29,95,4.4,232,236,0,Strategy,"PlayStation 4, Linux, macOS, PC, Xbox One",Teen,xcom-2-war-of-the-chosen,2017,2010s,Strategy,1,8.8,92.2,5.451,PlayStation 4
+30799,Baldur's Gate II: Shadows of Amn,2000-09-21,95,4.28,153,156,1,"RPG, Strategy","Android, PC, macOS",Teen,baldurs-gate-ii-shadows-of-amn,2000,2000s,RPG,2,8.56,91.2,5.037,Android
+378578,Grand Theft Auto IV: Complete Edition,2010-10-27,95,4.57,100,101,0,"Action, Adventure","PC, PlayStation 3, Xbox 360",Adults Only,grand-theft-auto-iv-complete-edition,2010,2010s,Action,2,9.14,93.6,4.615,PC
+364800,The Legend of Zelda: Collector's Edition,2003-11-07,95,4.27,11,11,0,"Action, Adventure, RPG",GameCube,Everyone,the-legend-of-zelda-collectors-edition,2003,2000s,Action,3,8.54,91.2,2.485,GameCube
+58175,God of War (2018),2018-04-20,94,4.54,5139,5248,15,Action,"PC, PlayStation 4",Mature,god-of-war-2,2018,2010s,Action,1,9.08,92.7,8.545,PC
+5679,The Elder Scrolls V: Skyrim,2011-11-11,94,4.42,4907,4964,46,"Action, RPG","PlayStation 5, PlayStation 4, PC, Xbox One, Xbox Series S/X, Nintendo Switch, Xbox 360, PlayStation 3",Mature,the-elder-scrolls-v-skyrim,2011,2010s,Action,2,8.84,91.8,8.499,PlayStation 5
+4062,BioShock Infinite,2013-03-26,94,4.38,4168,4211,12,"Action, Shooter","PlayStation 4, Xbox 360, Nintendo Switch, Linux, PC, PlayStation 3, Xbox One",Mature,bioshock-infinite,2013,2010s,Action,2,8.76,91.4,8.335,PlayStation 4
+430,Grand Theft Auto: Vice City,2002-10-27,94,4.45,3094,3112,2,Action,"Android, macOS, PC, iOS, PlayStation 4, PS Vita, PlayStation 2, Xbox",Mature,grand-theft-auto-vice-city,2002,2000s,Action,1,8.9,92.0,8.038,Android
+4806,Mass Effect 2,2010-01-26,94,4.46,3081,3104,22,"Action, RPG","PC, Xbox One, PlayStation 3, Xbox 360",Mature,mass-effect-2,2010,2010s,Action,2,8.92,92.1,8.033,PC
+28623,Batman: Arkham City,2011-10-18,94,4.41,2168,2192,20,Action,"PC, PlayStation 3, Nintendo Switch, macOS, PlayStation 4, Xbox One, Xbox 360",Teen,batman-arkham-city-2,2011,2010s,Action,1,8.82,91.7,7.682,PC
+57607,Metal Gear Solid,1998-09-03,94,4.4,1153,1166,1,Action,"PC, Game Boy Color, PlayStation, PlayStation 3",Mature,metal-gear-solid-1,1998,1990s,Action,1,8.8,91.6,7.051,PC
+16359,Divinity: Original Sin - Enhanced Edition,2015-10-27,94,4.25,1027,1039,8,"RPG, Indie","PC, Linux, macOS, PlayStation 4, Xbox One",Mature,divinity-original-sin-enhanced-edition,2015,2010s,RPG,2,8.5,90.4,6.935,PC
+5678,The Elder Scrolls IV: Oblivion,2006-03-20,94,4.34,959,966,4,"Adventure, RPG, Indie","PC, Xbox 360, PlayStation 3, Xbox One",Mature,the-elder-scrolls-iv-oblivion,2006,2000s,Adventure,3,8.68,91.1,6.867,PC
+54528,Super Mario 64,1996-06-23,94,4.39,757,767,12,Platformer,Nintendo 64,Everyone,super-mario-64-1996,1996,1990s,Platformer,1,8.78,91.5,6.631,Nintendo 64
+29179,God of War I,2005-03-22,94,4.36,718,733,11,Action,"PS Vita, PlayStation 2, PlayStation 3",Mature,god-of-war,2005,2000s,Action,1,8.72,91.3,6.578,PS Vita
+15642,The Elder Scrolls IV: Oblivion Game of the Year Edition,2009-06-16,94,4.32,680,681,5,RPG,"PC, Xbox 360, PlayStation 3",Mature,the-elder-scrolls-iv-oblivion-game-of-the-year-edi,2009,2000s,RPG,1,8.64,91.0,6.524,PC
+3469,Metal Gear Solid 4: Guns of the Patriots,2008-06-12,94,4.38,664,669,20,"Action, Shooter",PlayStation 3,Mature,metal-gear-solid-4-guns-of-the-patriots,2008,2000s,Action,2,8.76,91.4,6.5,PlayStation 3
+59199,Divinity: Original Sin 2 - Definitive Edition,2018-08-31,94,4.51,591,599,10,RPG,"PlayStation 4, Nintendo Switch, macOS, PC, iOS, Xbox One",Mature,divinity-original-sin-ii-definitive-edition,2018,2010s,RPG,1,9.02,92.5,6.384,PlayStation 4
+29593,Diablo,1996-12-31,94,4.39,536,541,1,"Action, RPG","PC, macOS, PlayStation",Not Rated,diablo,1996,1990s,Action,2,8.78,91.5,6.286,PC
+339958,Persona 5 Royal,2020-03-31,94,4.75,527,540,12,"Adventure, RPG","Xbox Series S/X, PC, PlayStation 5, Nintendo Switch, Xbox One, PlayStation 4",Mature,persona-5-royal,2020,2020s,Adventure,2,9.5,94.4,6.269,Xbox Series S/X
+53341,Jet Set Radio,2000-06-29,94,3.41,508,512,1,"Action, Sports, Platformer","iOS, Xbox 360, Android, Game Boy Advance, Dreamcast, PlayStation 3, PS Vita, PC",Teen,jet-set-radio-2012,2000,2000s,Action,3,6.82,83.7,6.232,iOS
+54491,Quake,1996-06-22,94,4.25,486,491,1,"Action, Shooter","Xbox One, macOS, Linux, Classic Macintosh, Xbox, Nintendo Switch, PlayStation 4, Nintendo 64, SEGA Saturn, Commodore / Amiga, PC, Xbox Series S/X, PlayStation 5",Not Rated,quake,1996,1990s,Action,2,8.5,90.4,6.188,Xbox One
+13780,Sid Meier's Civilization IV,2005-10-25,94,4.11,375,375,1,Strategy,"PC, macOS",Everyone 10+,sid-meiers-civilization-iv,2005,2000s,Strategy,1,8.22,89.3,5.93,PC
+27969,The Legend of Zelda: Ocarina of Time 3D,2011-06-19,94,4.55,360,368,13,"Adventure, RPG, Puzzle",Nintendo 3DS,Everyone 10+,the-legend-of-zelda-ocarina-of-time-3d,2011,2010s,Adventure,3,9.1,92.8,5.889,Nintendo 3DS
+28581,The Orange Box,2008-01-01,94,4.54,328,328,6,Shooter,"Linux, macOS, Xbox 360, PC, PlayStation 3",Teen,the-orange-box,2008,2000s,Shooter / FPS,1,9.08,92.7,5.796,Linux
+28224,Burnout 3: Takedown,2004-09-07,94,4.4,159,161,23,"Racing, Arcade","Xbox, PlayStation 2, Xbox 360",Teen,burnout-3-takedown,2004,2000s,Racing,2,8.8,91.6,5.075,Xbox
+32577,Tony Hawk's Pro Skater 3,2001-10-28,94,4.32,150,152,5,"Sports, Arcade","PC, Game Boy Advance, PlayStation, Game Boy Color, Classic Macintosh, Xbox, Nintendo 64, GameCube, PlayStation 2",Not Rated,tony-hawks-pro-skater-3,2001,2000s,Sports,2,8.64,91.0,5.017,PC
+52799,Chrono Cross,1999-11-18,94,4.39,147,149,42,RPG,PlayStation,Teen,chrono-cross-2011,1999,1990s,RPG,1,8.78,91.5,4.997,PlayStation
+29413,Grim Fandango,1998-10-14,94,4.36,145,145,1,Adventure,PC,Not Rated,grim-fandango,1998,1990s,Adventure,1,8.72,91.3,4.984,PC
+52815,Command & Conquer,1995-08-31,94,4.31,138,138,0,Strategy,"PC, PlayStation, Classic Macintosh, SEGA Saturn",Not Rated,command-conquer-old,1995,1990s,Strategy,1,8.62,90.9,4.934,PC
+42180,The Elder Scrolls V: Skyrim Legendary Edition,2013-06-04,94,4.59,138,139,0,"Adventure, RPG","PC, PlayStation 3, Xbox 360",Mature,the-elder-scrolls-v-skyrim-legendary-edition,2013,2010s,Adventure,2,9.18,93.1,4.934,PC
+40841,Resident Evil Code: Veronica,2000-02-03,94,4.21,118,120,0,"Action, Adventure","Xbox 360, PlayStation 3, PlayStation 4, GameCube, PlayStation 2, Dreamcast",Mature,resident-evil-code-veronica,2000,2000s,Action,2,8.42,90.1,4.779,Xbox 360
+32060,Sid Meier's Civilization 2,1996-02-29,94,4.21,47,47,0,Strategy,PC,Everyone,sid-meiers-civilization-2,1996,1990s,Strategy,1,8.42,90.1,3.871,PC
+494369,Metal Gear Solid 3: Subsistence,2005-12-22,94,4.34,44,44,0,Shooter,"PlayStation 3, PS Vita, PlayStation 2",Mature,metal-gear-solid-3-subsistence,2005,2000s,Shooter / FPS,1,8.68,91.1,3.807,PlayStation 3
+27714,Super Mario Advance 4: Super Mario Bros. 3,2003-07-11,94,3.94,16,17,0,Platformer,Game Boy Advance,Everyone,super-mario-advance-4-super-mario-bros-3,2003,2000s,Platformer,1,7.88,87.9,2.833,Game Boy Advance
+4835,N.O.V.A.,2009-12-17,94,4.33,12,12,0,"Action, Shooter","Android, PlayStation 3, iOS, PSP",Teen,nova,2009,2000s,Action,2,8.66,91.0,2.565,Android
+416,Grand Theft Auto: San Andreas,2004-10-26,93,4.5,4049,4078,2,Action,"macOS, PC, iOS, Xbox, Android, PlayStation 4, PlayStation 3, PlayStation 2, Xbox 360, Xbox One",Mature,grand-theft-auto-san-andreas,2004,2000s,Action,1,9.0,91.8,8.306,macOS
+2462,Uncharted 4: A Thief’s End,2016-05-10,93,4.48,3728,3766,0,"Action, Shooter","PlayStation 5, PlayStation 4",Teen,uncharted-4-a-thiefs-end,2016,2010s,Action,2,8.96,91.6,8.224,PlayStation 5
+274755,Hades,2020-09-17,93,4.42,2079,2121,10,"Action, Adventure, RPG, Indie","PlayStation 5, Xbox Series S/X, PlayStation 4, Nintendo Switch, PC, Xbox One",Teen,hades-2018,2020,2020s,Action,4,8.84,91.2,7.64,PlayStation 5
+51325,The Last of Us Part II,2020-06-19,93,4.42,1989,2084,0,"Action, Shooter, Adventure","PlayStation 4, PlayStation 5",Mature,the-last-of-us-part-2,2020,2020s,Action,3,8.84,91.2,7.596,PlayStation 4
+432,Grand Theft Auto III,2001-10-22,93,4.15,1642,1659,1,"Action, Shooter","macOS, PC, iOS, Android, PlayStation 4, PlayStation 2, Xbox",Mature,grand-theft-auto-iii,2001,2000s,Action,2,8.3,89.0,7.404,macOS
+49,Persona 5,2016-09-15,93,4.34,1440,1463,105,"Action, Adventure, RPG","PlayStation 3, PlayStation 4",Mature,persona-5,2016,2010s,Action,3,8.68,90.5,7.273,PlayStation 3
+58829,Super Smash Bros. Ultimate,2018-12-07,93,4.37,1082,1106,0,Fighting,Nintendo Switch,Not Rated,super-smash-bros-ultimate,2018,2010s,Fighting,1,8.74,90.8,6.987,Nintendo Switch
+39707,God of War II,2007-03-13,93,4.4,962,979,17,Action,"PlayStation 2, PS Vita, PlayStation 3",Mature,god-of-war-ii,2007,2000s,Action,1,8.8,91.0,6.87,PlayStation 2
+22510,StarCraft II,2010-07-27,93,4.38,811,816,0,Strategy,"PC, macOS",Teen,starcraft-2,2010,2010s,Strategy,1,8.76,90.8,6.7,PC
+28619,Gears of War 2,2008-11-07,93,4.28,716,721,22,Shooter,"Xbox 360, Xbox One",Mature,gears-of-war-2,2008,2000s,Shooter / FPS,1,8.56,90.0,6.575,Xbox 360
+23599,World of Warcraft,2004-11-23,93,4.31,685,692,129,"RPG, Massively Multiplayer","PC, macOS",Teen,world-of-warcraft,2004,2000s,RPG,2,8.62,90.3,6.531,PC
+52790,Castlevania: Symphony of the Night,1997-03-20,93,4.35,564,572,19,"Action, Adventure","SEGA Saturn, PlayStation, Android, Xbox 360, iOS",Not Rated,castlevania-sotn,1997,1990s,Action,2,8.7,90.6,6.337,SEGA Saturn
+18183,Company of Heroes,2006-09-11,93,3.68,564,570,7,Strategy,"PC, iOS",Not Rated,company-of-heroes,2006,2000s,Strategy,1,7.36,85.2,6.337,PC
+392019,Half-Life: Alyx,2020-03-23,93,4.36,505,514,5,"Action, Shooter, Adventure",PC,Mature,half-life-alyx,2020,2020s,Action,3,8.72,90.7,6.227,PC
+25414,Super Smash Bros. Brawl,2008-03-09,93,4.31,312,318,24,"Action, Casual, Fighting",Wii,Teen,super-smash-bros-brawl,2008,2000s,Action,3,8.62,90.3,5.746,Wii
+26824,The Legend of Zelda: Skyward Sword,2011-11-20,93,4.15,285,294,33,Adventure,"Wii U, Wii, Nintendo Switch",Everyone 10+,the-legend-of-zelda-skyward-sword,2011,2010s,Adventure,1,8.3,89.0,5.656,Wii U
+38067,StarCraft II: Wings of Liberty,2010-07-27,93,4.56,281,282,13,Strategy,"PC, macOS",Teen,starcraft-ii-wings-of-liberty,2010,2010s,Strategy,1,9.12,92.3,5.642,PC
+27974,Super Mario 3D World,2013-11-21,93,4.37,237,244,58,"Action, Platformer","Nintendo Switch, Wii U",Everyone,super-mario-3d-world,2013,2010s,Action,2,8.74,90.8,5.472,Nintendo Switch
+949,Cut the Rope,2010-10-04,93,3.78,199,200,1,"Arcade, Casual, Indie, Puzzle","Android, Nintendo DS, Nintendo 3DS, Nintendo DSi, iOS, PC",Not Rated,cut-the-rope,2010,2010s,Arcade,4,7.56,86.0,5.298,Android
+19625,Unreal Tournament 2004: Editor's Choice Edition,2004-03-17,93,4.29,165,165,3,Action,"macOS, Linux, PC",Mature,unreal-tournament-2004-editors-choice-edition,2004,2000s,Action,1,8.58,90.1,5.112,macOS
+35374,Unreal Tournament 2004,2004-03-16,93,4.33,160,160,3,"Action, Shooter","macOS, Linux, PC",Mature,unreal-tournament-2004,2004,2000s,Action,2,8.66,90.4,5.081,macOS
+25178,Paper Mario (2000),2000-08-11,93,4.39,153,155,5,RPG,Nintendo 64,Everyone,paper-mario,2000,2000s,RPG,1,8.78,90.9,5.037,Nintendo 64
+25449,Okami,2006-04-20,93,4.39,134,139,1,"Action, Adventure","Wii, PlayStation 2, PC",Teen,okami,2006,2000s,Action,2,8.78,90.9,4.905,Wii
+52996,Gran Turismo 2,1999-12-11,93,4.4,114,115,0,Racing,"PlayStation, Dreamcast",Everyone,gran-turismo-2,1999,1990s,Racing,1,8.8,91.0,4.745,PlayStation
+58209,Dwarf Fortress,2006-08-08,93,4.33,94,95,3,"RPG, Strategy, Simulation, Indie","Linux, PC, macOS",Not Rated,dwarf-fortress,2006,2000s,RPG,4,8.66,90.4,4.554,Linux
+30813,Maniac Mansion: Day of the Tentacle,1993-06-25,93,4.32,81,81,6,"Adventure, Puzzle","PC, macOS",Everyone,maniac-mansion-day-of-the-tentacle,1993,1990s,Adventure,2,8.64,90.4,4.407,PC
+53392,Mario Kart: Super Circuit (2001),2001-07-21,93,3.8,63,64,1,Racing,Game Boy Advance,Everyone,mario-kart-super-circuit,2001,2000s,Racing,1,7.6,86.2,4.159,Game Boy Advance
+29742,Homeworld,1999-09-01,93,4.33,61,63,0,Strategy,PC,Not Rated,homeworld,1999,1990s,Strategy,1,8.66,90.4,4.127,PC
+54744,Skies of Arcadia,2000-10-05,93,4.22,49,50,0,RPG,"GameCube, Dreamcast",Teen,skies-of-arcadia,2000,2000s,RPG,1,8.44,89.6,3.912,GameCube
+53562,SSX 3,2003-10-21,93,4.39,41,41,0,"Sports, Racing","Xbox, PlayStation 2, Xbox One, Xbox 360, GameCube",Everyone,ssx-3,2003,2000s,Sports,2,8.78,90.9,3.738,Xbox
+387230,Pro Evolution Soccer 2,2002-04-25,93,4.23,13,13,0,"Simulation, Sports","PlayStation, PlayStation 2",Everyone,pro-evolution-soccer-2,2002,2000s,Simulation,2,8.46,89.6,2.639,PlayStation
+359109,SSX (2000),2000-10-26,93,0.0,5,5,0,Action,PlayStation 2,Everyone,ssx-2000,2000,2000s,Action,1,0.0,55.8,1.792,PlayStation 2
+3498,Grand Theft Auto V,2013-09-17,92,4.47,7352,7479,74,Action,"PlayStation 5, Xbox Series S/X, PlayStation 3, PC, PlayStation 4, Xbox 360, Xbox One",Mature,grand-theft-auto-v,2013,2010s,Action,1,8.94,91.0,8.903,PlayStation 5
+3328,The Witcher 3: Wild Hunt,2015-05-18,92,4.64,7170,7289,43,"Action, RPG","PlayStation 5, Xbox Series S/X, macOS, PlayStation 4, Nintendo Switch, PC, Xbox One",Mature,the-witcher-3-wild-hunt,2015,2010s,Action,2,9.28,92.3,8.878,PlayStation 5
+11859,Team Fortress 2,2007-10-10,92,3.68,2935,2964,8,"Action, Shooter","Linux, macOS, PC",Mature,team-fortress-2,2007,2000s,Action,2,7.36,84.6,7.985,Linux
+23027,The Walking Dead: Season 1,2012-04-23,92,4.36,2483,2507,8,"Action, Adventure","Android, PS Vita, macOS, PC, iOS, PlayStation 4, PlayStation 3, Xbox 360, Nintendo Switch, Xbox One",Mature,the-walking-dead,2012,2010s,Action,2,8.72,90.1,7.818,Android
+3254,Journey,2012-03-13,92,4.32,2461,2481,2,"Adventure, Family, Indie","PC, iOS, PlayStation 4, PlayStation 3",Not Rated,journey,2012,2010s,Adventure,3,8.64,89.8,7.809,PC
+3387,Bloodborne,2015-03-24,92,4.41,2452,2489,12,"Action, RPG",PlayStation 4,Mature,bloodborne,2015,2010s,Action,2,8.82,90.5,7.805,PlayStation 4
+5703,Uncharted 3: Drake's Deception,2011-11-01,92,4.37,1951,1968,12,Action,"PlayStation 4, PlayStation 3",Teen,uncharted-3-drakes-deception,2011,2010s,Action,1,8.74,90.2,7.577,PlayStation 4
+13627,Undertale,2015-09-14,92,4.35,1885,1918,5,"RPG, Indie","Xbox Series S/X, Nintendo Switch, Xbox One, PC, macOS, Linux, PlayStation 4, PS Vita",Everyone 10+,undertale,2015,2010s,RPG,2,8.7,90.0,7.542,Xbox Series S/X
+4535,Call of Duty 4: Modern Warfare,2007-11-05,92,4.39,1842,1861,6,"Action, Shooter","PlayStation 4, PlayStation 3, Xbox 360, Wii, PC, Nintendo DS, Xbox One, macOS",Mature,modern-warfare,2007,2000s,Action,2,8.78,90.3,7.519,PlayStation 4
+30445,Warcraft 3: Reign of Chaos,2002-07-03,92,4.45,1413,1422,0,Strategy,"PC, macOS",Teen,warcraft-3-reign-of-chaos,2002,2000s,Strategy,1,8.9,90.8,7.254,PC
+5161,Braid,2008-08-06,92,4.16,1000,1008,2,"Action, Arcade, Indie, Puzzle, Platformer","PlayStation 3, Xbox One, iOS, PC, macOS, Linux, Xbox 360",Everyone 10+,braid,2008,2000s,Action,5,8.32,88.5,6.909,PlayStation 3
+23165,Mario Kart 8 Deluxe,2017-04-27,92,4.45,904,919,0,Racing,Nintendo Switch,Everyone,mario-kart-8-deluxe,2017,2010s,Racing,1,8.9,90.8,6.808,Nintendo Switch
+257255,The Witcher 3 Wild Hunt - Complete Edition,2016-08-30,92,4.8,796,815,0,"Adventure, RPG","Xbox One, Xbox Series S/X, PC, Nintendo Switch, PlayStation 4, PlayStation 5",Mature,the-witcher-3-game-of-the-year,2016,2010s,Adventure,2,9.6,93.6,6.681,Xbox One
+24899,Super Mario World,1990-11-21,92,4.36,780,788,6,"Arcade, Platformer",SNES,Everyone,super-mario-world,1990,1990s,Arcade,2,8.72,90.1,6.661,SNES
+39039,God of War III,2010-03-16,92,4.4,749,758,10,Action,PlayStation 3,Mature,god-of-war-iii,2010,2010s,Action,1,8.8,90.4,6.62,PlayStation 3
+43252,The Witcher 3: Wild Hunt – Blood and Wine,2016-05-30,92,4.81,627,637,0,RPG,"PlayStation 4, PC, Xbox One",Mature,the-witcher-3-wild-hunt-blood-and-wine,2016,2010s,RPG,1,9.62,93.7,6.443,PlayStation 4
+20709,Tom Clancy's Splinter Cell Chaos Theory,2005-03-21,92,4.38,488,488,2,"Action, Adventure","PC, Nintendo DS, PlayStation 3, Xbox 360, Nintendo 3DS, PlayStation 2, Xbox, GameCube, Xbox One",Mature,splinter-cell-chaos-theory,2005,2000s,Action,2,8.76,90.2,6.192,PC
+32595,Age of Empires II: Age of Kings,1999-09-30,92,4.39,450,453,0,Strategy,"PC, PlayStation 2",Not Rated,age-of-empires-ii-age-of-kings,1999,1990s,Strategy,1,8.78,90.3,6.111,PC
+10615,System Shock 2,1999-08-11,92,4.14,413,418,2,"Action, Shooter, RPG","PC, macOS, Linux",Mature,system-shock-2,1999,1990s,Action,3,8.28,88.3,6.026,PC
+1063,FINAL FANTASY VI,1994-04-02,92,4.37,399,405,4,RPG,"SNES, Android, PC, iOS, Game Boy Advance",Not Rated,final-fantasy-vi,1994,1990s,RPG,1,8.74,90.2,5.991,SNES
+41128,Final Fantasy X,2001-07-19,92,4.38,398,401,0,RPG,PlayStation 2,Teen,final-fantasy-10,2001,2000s,RPG,1,8.76,90.2,5.989,PlayStation 2
+56222,Super Smash Bros. Melee,2001-11-21,92,4.36,374,377,0,"Action, Fighting",GameCube,Everyone 10+,super-smash-bros-melee-2001,2001,2000s,Action,2,8.72,90.1,5.927,GameCube
+47326,OKAMI HD,2017-12-12,92,4.18,356,360,4,"Action, Adventure","PlayStation 4, PlayStation 3, PC, Xbox One, Nintendo Switch",Teen,okami-hd-da-shen-jue-jing-ban,2017,2010s,Action,2,8.36,88.6,5.878,PlayStation 4
+23760,Bayonetta 2,2014-09-20,92,4.36,343,353,0,Action,"Wii U, Nintendo Switch",Mature,bayonetta-2,2014,2010s,Action,1,8.72,90.1,5.841,Wii U
+28532,Banjo-Kazooie,1998-05-31,92,4.25,323,326,2,"Action, Adventure, Puzzle, Platformer","Nintendo 64, Xbox 360, Xbox One, Nintendo Switch",Everyone,banjo-kazooie,1998,1990s,Action,4,8.5,89.2,5.781,Nintendo 64
+52371,Super Mario Sunshine,2002-08-25,92,4.3,300,303,0,"Action, Adventure, Platformer",GameCube,Everyone,super-mario-sunshine,2002,2000s,Action,3,8.6,89.6,5.707,GameCube
+10050,Thief Gold,1999-10-29,92,4.02,263,264,1,"Action, Simulation",PC,Mature,thief-gold,1999,1990s,Action,2,8.04,87.4,5.576,PC
+32186,Unreal Tournament,1999-11-22,92,4.37,255,259,2,"Action, Shooter","Linux, PlayStation 2, Classic Macintosh, Dreamcast, PC",Mature,unreal-tournament,1999,1990s,Action,2,8.74,90.2,5.545,Linux
+27968,Fire Emblem Awakening,2012-04-19,92,4.38,246,249,0,"RPG, Strategy",Nintendo 3DS,Everyone 10+,fire-emblem-awakening,2012,2010s,RPG,2,8.76,90.2,5.509,Nintendo 3DS
+14929,Rome: Total War - Collection,2007-08-27,92,3.99,227,227,3,Strategy,"iOS, PC",Not Rated,rome-total-war-collection,2007,2000s,Strategy,1,7.98,87.1,5.429,iOS
+452648,Demon's Souls (2020),2020-11-12,92,4.43,222,235,0,"Action, RPG",PlayStation 5,Mature,demons-souls-remake,2020,2020s,Action,2,8.86,90.6,5.407,PlayStation 5
+21709,Unreal Tournament: Game of the Year Edition,2000-10-25,92,4.32,222,222,1,"Action, Shooter, Massively Multiplayer",PC,Mature,unreal-tournament-game-of-the-year-edition,2000,2000s,Action,3,8.64,89.8,5.407,PC
+16191,Galactic Civilizations II: Ultimate Edition,2011-12-02,92,2.65,218,218,1,Strategy,PC,Not Rated,galactic-civilizations-ii-ultimate-edition,2011,2010s,Strategy,1,5.3,76.4,5.389,PC
+27390,Metroid Fusion,2002-11-17,92,4.37,193,199,14,"Action, Platformer",Game Boy Advance,Everyone,metroid-fusion,2002,2000s,Action,2,8.74,90.2,5.268,Game Boy Advance
+29131,Forza Motorsport 3,2009-10-22,92,3.83,149,149,16,Racing,Xbox 360,Everyone,forza-motorsport-3,2009,2000s,Racing,1,7.66,85.8,5.011,Xbox 360
+301511,Final Fantasy XII,2006-03-16,92,4.21,130,131,0,RPG,PlayStation 2,Teen,final-fantasy-xii,2006,2000s,RPG,1,8.42,88.9,4.875,PlayStation 2
+57944,Tony Hawk's Pro Skater,1999-08-31,92,4.37,129,131,0,Sports,"PlayStation, Game Boy Color, Nintendo 64, Dreamcast",Teen,tony-hawks-pro-skater,1999,1990s,Sports,1,8.74,90.2,4.868,PlayStation
+54311,Medal of Honor (1999),1999-10-31,92,4.23,128,128,0,"Action, Shooter","PlayStation, PlayStation 3, PSP",Teen,medal-of-honor-1999,1999,1990s,Action,2,8.46,89.0,4.86,PlayStation
+5645,Rock Band 3,2010-08-11,92,4.15,125,126,14,Arcade,"Wii, Xbox 360, Nintendo DS, PlayStation 3",Teen,rock-band-3,2010,2010s,Arcade,1,8.3,88.4,4.836,Wii
+517,Alto's Adventure,2015-02-19,92,4.12,97,98,0,"Action, Sports","PC, Xbox One, iOS, macOS, Linux, Android",Not Rated,altos-adventure,2015,2010s,Action,2,8.24,88.2,4.585,PC
+56124,Metroid Prime 2: Echoes,2004-11-15,92,4.41,86,88,0,"Action, Adventure","Wii, GameCube",Not Rated,metroid-prime-2-echoes,2004,2000s,Action,2,8.82,90.5,4.466,Wii
+54373,Conker's Bad Fur Day,2001-03-04,92,4.21,74,76,0,"Action, Platformer","Xbox One, Nintendo 64",Mature,conkers-bad-fur-day,2001,2000s,Action,2,8.42,88.9,4.317,Xbox One
+400295,Soul Calibur II,2002-07-05,92,4.23,71,71,0,Fighting,"Xbox, GameCube, PlayStation 2",Teen,soulcalibur-ii,2002,2000s,Fighting,1,8.46,89.0,4.277,Xbox
+57954,Vagrant Story (2000),2000-02-10,92,4.3,63,64,0,"Action, Adventure, RPG",PlayStation,Teen,vagrant-story,2000,2000s,Action,3,8.6,89.6,4.159,PlayStation
+31777,Thief: The Dark Project,1998-12-02,92,4.31,55,55,0,Action,PC,Not Rated,thief-the-dark-project,1998,1990s,Action,1,8.62,89.7,4.025,PC
+56041,Eternal Darkness: Sanity's Requiem,2002-06-23,92,4.34,44,44,0,"Action, Adventure",GameCube,Mature,eternal-darkness,2002,2000s,Action,2,8.68,89.9,3.807,GameCube
+53563,SSX Tricky,2001-11-05,92,4.4,43,43,0,"Sports, Racing","PlayStation 2, Game Boy Advance, Xbox, GameCube",Everyone,ssx-tricky,2001,2000s,Sports,2,8.8,90.4,3.784,PlayStation 2
+57669,PaRappa the Rapper,1996-12-06,92,4.21,39,39,0,"Action, Arcade","PlayStation, PSP",Everyone,parappa-the-rapper,1996,1990s,Action,2,8.42,88.9,3.689,PlayStation
+54556,Wave Race 64: Kawasaki Jet Ski,1996-09-27,92,4.08,38,38,0,Racing,Nintendo 64,Everyone,wave-race-64,1996,1990s,Racing,1,8.16,87.8,3.664,Nintendo 64
+455,Threes!,2014-02-05,92,4.29,37,38,0,"Casual, Card, Educational, Indie, Puzzle","macOS, PC, Xbox One, iOS, Android",Not Rated,threes,2014,2010s,Family / Casual,5,8.58,89.5,3.638,macOS
+29717,Sid Meier's Alpha Centauri,1999-02-12,92,4.19,31,32,1,Strategy,PC,Not Rated,sid-meiers-alpha-centauri,1999,1990s,Strategy,1,8.38,88.7,3.466,PC
+23967,Super Mario World: Super Mario Advance 2,2001-12-14,92,4.12,31,32,0,"Action, Platformer",Game Boy Advance,Everyone,super-mario-world-super-mario-advance-2,2001,2000s,Action,2,8.24,88.2,3.466,Game Boy Advance
+425200,A Monster's Expedition,2020-09-10,92,3.93,27,27,2,"Adventure, Strategy, Casual, Indie, Puzzle","PC, macOS",Not Rated,a-monsters-expedition,2020,2020s,Adventure,5,7.86,86.6,3.332,PC
+316819,Forza Motorsport (2005),2005-05-03,92,3.71,16,17,27,"Racing, Casual","PC, Xbox",Not Rated,forza-motorsport,2005,2000s,Racing,2,7.42,84.9,2.833,PC
+2351,Prune,2015-07-23,92,4.0,14,14,0,"Simulation, Casual, Family, Indie, Puzzle","PC, Android, iOS",Not Rated,prune,2015,2010s,Simulation,5,8.0,87.2,2.708,PC
+15679,Out of the Park Baseball 17,2016-03-22,92,2.33,12,12,4,"Strategy, Simulation, Sports, Indie","PC, macOS, Linux",Not Rated,out-of-the-park-baseball-17,2016,2010s,Strategy,4,4.66,73.8,2.565,PC
+24993,Age of Empires: The Age of Kings,2006-02-14,92,3.62,8,8,0,Strategy,Nintendo DS,Everyone,age-of-empires-the-age-of-kings,2006,2000s,Strategy,1,7.24,84.2,2.197,Nintendo DS
+328001,Soul Caliber 2,2002-07-05,92,0.0,3,3,0,Fighting,"Xbox, PlayStation 2, GameCube, PlayStation 3, Xbox 360",Teen,soul-caliber-2,2002,2000s,Fighting,1,0.0,55.2,1.386,Xbox
+30202,Sid Meier's Gettysburg!,1997-09-30,92,0.0,2,2,0,Strategy,PC,Everyone 10+,sid-meiers-gettysburg,1997,1990s,Strategy,1,0.0,55.2,1.099,PC
+58813,Resident Evil 2,2019-01-25,91,4.5,2265,2303,11,"Action, Adventure","Xbox One, Nintendo Switch, PlayStation 5, PlayStation 4, PC, macOS",Mature,resident-evil-2-2019,2019,2010s,Action,2,9.0,90.6,7.726,Xbox One
+22121,Celeste,2018-01-25,91,4.37,1696,1744,6,"Indie, Platformer","Xbox One, PC, macOS, Nintendo Switch, PlayStation 4, Linux",Everyone 10+,celeste,2018,2010s,Indie,2,8.74,89.6,7.437,Xbox One
+262382,Disco Elysium,2019-10-14,91,4.37,1334,1354,6,"Adventure, RPG, Indie","PC, macOS, Xbox One, Nintendo Switch, PlayStation 4, Xbox Series S/X, PlayStation 5",Mature,disco-elysium,2019,2010s,Adventure,3,8.74,89.6,7.197,PC
+28199,Ori and the Will of the Wisps,2020-03-10,91,4.42,1304,1331,11,"Action, Adventure, Platformer","Xbox One, PC, Nintendo Switch, Xbox Series S/X",Everyone,ori-and-the-will-of-the-wisps,2020,2020s,Action,3,8.84,90.0,7.174,Xbox One
+22508,Overwatch,2016-05-24,91,4.13,1149,1171,35,"Action, Shooter, Casual, Massively Multiplayer","Nintendo Switch, PC, Xbox One, PlayStation 4",Teen,overwatch,2016,2010s,Action,4,8.26,87.6,7.048,Nintendo Switch
+19451,Fallout 3: Game of the Year Edition,2009-10-13,91,4.14,946,949,4,"Action, RPG","Xbox 360, PlayStation 3, PC",Mature,fallout-3-game-of-the-year-edition,2009,2000s,Action,2,8.28,87.7,6.853,Xbox 360
+19369,Call of Duty,2003-10-29,91,4.16,934,948,6,Shooter,"PlayStation 3, Xbox 360, macOS, PC",Teen,call-of-duty,2003,2000s,Shooter / FPS,1,8.32,87.9,6.841,PlayStation 3
+28613,Halo: Reach,2010-09-14,91,4.29,780,789,11,Shooter,"Xbox 360, Xbox One, PC",Mature,halo-reach,2010,2010s,Shooter / FPS,1,8.58,88.9,6.661,Xbox 360
+28589,Halo 3,2007-09-25,91,4.37,778,788,2,Shooter,"PC, Xbox 360, Xbox One",Mature,halo-3,2007,2000s,Shooter / FPS,1,8.74,89.6,6.658,PC
+28632,Gears of War 3,2011-09-20,91,4.2,600,602,16,Shooter,"Xbox 360, Xbox One",Mature,gears-of-war-3,2011,2010s,Shooter / FPS,1,8.4,88.2,6.399,Xbox 360
+52368,Shadow of the Colossus  (2018),2018-02-06,91,4.32,599,611,0,"Action, Adventure",PlayStation 4,Teen,shadow-of-the-colossus-2018,2018,2010s,Action,2,8.64,89.2,6.397,PlayStation 4
+59248,Shadow of the Colossus,2005-10-18,91,4.34,558,560,0,"Action, Adventure, RPG",PlayStation 2,Teen,shadow-of-the-colossus-2,2005,2000s,Action,3,8.68,89.3,6.326,PlayStation 2
+19646,Tom Clancy's Splinter Cell,2002-11-17,91,4.17,489,495,2,"Action, Adventure","PC, PlayStation 3, Xbox 360, Xbox, Game Boy Advance, Classic Macintosh, GameCube, PlayStation 2, Xbox One",Not Rated,splinter-cell,2002,2000s,Action,2,8.34,88.0,6.194,PC
+58084,DRAGON QUEST XI: Echoes of an Elusive Age,2017-07-29,91,4.31,375,378,15,RPG,"PC, PlayStation 4, Xbox One, Nintendo Switch, Nintendo 3DS",Teen,dragon-quest-xi,2017,2010s,RPG,1,8.62,89.1,5.93,PC
+27977,The Legend of Zelda: A Link Between Worlds,2013-11-22,91,4.37,374,383,26,Adventure,Nintendo 3DS,Everyone,the-legend-of-zelda-a-link-between-worlds,2013,2010s,Adventure,1,8.74,89.6,5.927,Nintendo 3DS
+32575,Tony Hawk's Pro Skater 2,2000-09-19,91,4.35,349,351,0,"Sports, Arcade","iOS, Game Boy Advance, PlayStation, Game Boy Color, Classic Macintosh, PC, Nintendo 64, Dreamcast",Teen,tony-hawks-pro-skater-2,2000,2000s,Sports,2,8.7,89.4,5.858,iOS
+38218,World of Warcraft: Wrath of the Lich King,2008-11-13,91,4.46,348,349,0,"RPG, Massively Multiplayer","PC, macOS",Teen,world-of-warcraft-wrath-of-the-lich-king,2008,2000s,RPG,2,8.92,90.3,5.855,PC
+23943,Mario Kart DS,2005-11-14,91,4.27,256,259,5,Racing,"Wii U, Nintendo DS",Everyone,mario-kart-ds,2005,2000s,Racing,1,8.54,88.8,5.549,Wii U
+21876,Planescape: Torment,1999-12-12,91,4.34,256,257,2,"RPG, Strategy",PC,Teen,planescape-torment,1999,1990s,RPG,2,8.68,89.3,5.549,PC
+36850,World of Warcraft: The Burning Crusade,2007-01-16,91,4.42,247,248,0,"RPG, Massively Multiplayer","PC, macOS",Teen,world-of-warcraft-the-burning-crusade,2007,2000s,RPG,2,8.84,90.0,5.513,PC
+57519,Super Mario World 2: Yoshi's Island,1995-08-05,91,4.34,242,244,0,Platformer,SNES,Everyone,yoshis-island,1995,1990s,Platformer,1,8.68,89.3,5.493,SNES
+34791,Battlefield 2,2005-06-21,91,4.2,215,215,2,"Action, Shooter",PC,Teen,battlefield-2,2005,2000s,Action,2,8.4,88.2,5.375,PC
+30373,Medal of Honor: Allied Assault,2002-01-22,91,4.15,206,209,0,Shooter,PC,Teen,medal-of-honor-allied-assault,2002,2000s,Shooter / FPS,1,8.3,87.8,5.333,PC
+57799,Spyro: Year of the Dragon,2000-10-24,91,4.38,198,199,0,"Action, Adventure, Platformer",PlayStation,Everyone,spyro-year-of-the-dragon,2000,2000s,Action,3,8.76,89.6,5.293,PlayStation
+39035,Killzone 2,2009-02-25,91,3.98,198,201,7,"Action, Shooter",PlayStation 3,Mature,killzone-2,2009,2000s,Action,2,7.96,86.4,5.293,PlayStation 3
+28460,Forza Motorsport 4,2011-01-03,91,3.93,175,177,65,Racing,Xbox 360,Everyone,forza-motorsport-4,2011,2010s,Racing,1,7.86,86.0,5.17,Xbox 360
+31495,Baldur's Gate,1998-12-21,91,4.37,174,175,76,"RPG, Strategy","iOS, PC, macOS",Teen,baldurs-gate,1998,1990s,RPG,2,8.74,89.6,5.165,iOS
+53180,Castlevania: Aria of Sorrow,2003-05-06,91,4.38,164,166,0,"Action, Platformer","Game Boy Advance, Wii U",Teen,castlevania-aria-of-sorrow-2,2003,2000s,Action,2,8.76,89.6,5.106,Game Boy Advance
+297208,NieR:Automata Game of the YoRHa Edition,2019-02-26,91,4.25,151,153,0,Action,"PlayStation 4, Xbox Series S/X, Xbox One, Nintendo Switch, PC",Mature,nier-automata-game-of-the-yorha-edition,2019,2010s,Action,1,8.5,88.6,5.024,PlayStation 4
+34734,Tony Hawk's Pro Skater 4,2002-10-23,91,4.23,150,151,40,"Sports, Arcade","Game Boy Advance, PlayStation, Classic Macintosh, PC, PlayStation 2, Xbox, GameCube",Not Rated,tony-hawks-pro-skater-4,2002,2000s,Sports,2,8.46,88.4,5.017,Game Boy Advance
+32797,No One Lives Forever 2: A Spy in H.A.R.M.'s Way,2002-10-01,91,4.32,111,112,0,"Action, Shooter","PC, macOS",Mature,no-one-lives-forever-2-a-spy-in-harms-way,2002,2000s,Action,2,8.64,89.2,4.718,PC
+24033,Golden Sun,2001-11-11,91,4.39,96,98,90,RPG,Game Boy Advance,Everyone 10+,golden-sun,2001,2000s,RPG,1,8.78,89.7,4.575,Game Boy Advance
+19705,Freespace 2,1999-09-30,91,3.17,74,75,1,"Action, Simulation",PC,Teen,freespace-2,1999,1990s,Action,2,6.34,80.0,4.317,PC
+54439,Mario Tennis (2000),2000-07-21,91,4.01,72,72,0,Sports,Nintendo 64,Everyone,mario-tennis-2000,2000,2000s,Sports,1,8.02,86.7,4.29,Nintendo 64
+52334,Guitar Hero,2005-11-07,91,4.0,70,70,0,Simulation,PlayStation 2,Not Rated,guitar-hero,2005,2000s,Simulation,1,8.0,86.6,4.263,PlayStation 2
+23958,Metroid Prime: Trilogy,2009-08-24,91,4.45,57,62,0,"Action, Adventure","Wii U, Wii",Not Rated,metroid-prime-trilogy,2009,2000s,Action,2,8.9,90.2,4.06,Wii U
+53181,Castlevania: Circle of the Moon,2001-06-10,91,3.81,56,58,0,Action,"Wii U, Game Boy Advance",Teen,castlevania-circle-of-the-moon-2,2001,2000s,Action,1,7.62,85.1,4.043,Wii U
+484816,DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition,2019-09-27,91,4.26,42,47,4,"Adventure, RPG","Nintendo Switch, Xbox One, PC, PlayStation 4",Teen,dragon-quest-xi-s-echoes-of-an-elusive-age-definit,2019,2010s,Adventure,2,8.52,88.7,3.761,Nintendo Switch
+290867,Klonoa 2: Lunatea's Veil,2001-07-24,91,4.44,16,18,0,"Action, Adventure, Platformer",PlayStation 2,Everyone,klonoa-2-lunateas-veil,2001,2000s,Action,3,8.88,90.1,2.833,PlayStation 2
+244693,Ninja Gaiden (2004),2004-03-02,91,4.36,11,11,0,Action,"Nintendo Switch, Xbox",Mature,ninja-gaiden-2004,2004,2000s,Action,1,8.72,89.5,2.485,Nintendo Switch
+29768,Myth: The Fallen Lords,1997-11-25,91,0.0,3,3,0,Strategy,PC,Not Rated,myth-the-fallen-lords,1997,1990s,Strategy,1,0.0,54.6,1.386,PC
+51288,Cinco Paus,2017-12-25,91,0.0,0,0,0,"Adventure, Strategy, Puzzle","iOS, PC",Everyone 10+,cinco-paus,2017,2010s,Adventure,3,0.0,54.6,0.0,iOS

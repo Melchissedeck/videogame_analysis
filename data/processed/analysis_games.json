@@ -1,0 +1,1822 @@
+{
+  "descriptive_stats": {
+    "metacritic": {
+      "count": 200.0,
+      "mean": 92.97,
+      "std": 1.75,
+      "min": 91.0,
+      "25%": 92.0,
+      "50%": 92.0,
+      "75%": 94.0,
+      "max": 99.0
+    },
+    "rating_10": {
+      "count": 200.0,
+      "mean": 8.3,
+      "std": 1.57,
+      "min": 0.0,
+      "25%": 8.42,
+      "50%": 8.69,
+      "75%": 8.78,
+      "max": 9.62
+    },
+    "composite_score": {
+      "count": 200.0,
+      "mean": 88.99,
+      "std": 6.43,
+      "min": 54.6,
+      "25%": 88.98,
+      "50%": 90.2,
+      "75%": 91.4,
+      "max": 94.5
+    },
+    "playtime_hours": {
+      "count": 200.0,
+      "mean": 9.82,
+      "std": 19.74,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 2.0,
+      "75%": 11.0,
+      "max": 129.0
+    },
+    "ratings_count": {
+      "count": 200.0,
+      "mean": 846.44,
+      "std": 1296.24,
+      "min": 0.0,
+      "25%": 117.0,
+      "50%": 325.5,
+      "75%": 911.5,
+      "max": 7352.0
+    }
+  },
+  "top50_most_played": [
+    {
+      "rank": 1,
+      "name": "Grand Theft Auto V",
+      "released": "2013-09-17",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 5",
+      "ratings_count": 7352,
+      "rating_10": 8.94,
+      "metacritic": 92,
+      "playtime_hours": 74,
+      "composite_score": 91.0
+    },
+    {
+      "rank": 2,
+      "name": "The Witcher 3: Wild Hunt",
+      "released": "2015-05-18",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 5",
+      "ratings_count": 7170,
+      "rating_10": 9.28,
+      "metacritic": 92,
+      "playtime_hours": 43,
+      "composite_score": 92.3
+    },
+    {
+      "rank": 3,
+      "name": "Portal 2",
+      "released": "2011-04-18",
+      "genre_primary": "Shooter / FPS",
+      "platform_primary": "PlayStation 3",
+      "ratings_count": 6082,
+      "rating_10": 9.16,
+      "metacritic": 95,
+      "playtime_hours": 11,
+      "composite_score": 93.6
+    },
+    {
+      "rank": 4,
+      "name": "Red Dead Redemption 2",
+      "released": "2018-10-26",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "ratings_count": 5467,
+      "rating_10": 9.18,
+      "metacritic": 96,
+      "playtime_hours": 21,
+      "composite_score": 94.3
+    },
+    {
+      "rank": 5,
+      "name": "God of War (2018)",
+      "released": "2018-04-20",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "ratings_count": 5139,
+      "rating_10": 9.08,
+      "metacritic": 94,
+      "playtime_hours": 15,
+      "composite_score": 92.7
+    },
+    {
+      "rank": 6,
+      "name": "The Elder Scrolls V: Skyrim",
+      "released": "2011-11-11",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 5",
+      "ratings_count": 4907,
+      "rating_10": 8.84,
+      "metacritic": 94,
+      "playtime_hours": 46,
+      "composite_score": 91.8
+    },
+    {
+      "rank": 7,
+      "name": "BioShock Infinite",
+      "released": "2013-03-26",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "ratings_count": 4168,
+      "rating_10": 8.76,
+      "metacritic": 94,
+      "playtime_hours": 12,
+      "composite_score": 91.4
+    },
+    {
+      "rank": 8,
+      "name": "Half-Life 2",
+      "released": "2004-11-16",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "ratings_count": 4092,
+      "rating_10": 8.96,
+      "metacritic": 96,
+      "playtime_hours": 7,
+      "composite_score": 93.4
+    },
+    {
+      "rank": 9,
+      "name": "Grand Theft Auto: San Andreas",
+      "released": "2004-10-26",
+      "genre_primary": "Action",
+      "platform_primary": "macOS",
+      "ratings_count": 4049,
+      "rating_10": 9.0,
+      "metacritic": 93,
+      "playtime_hours": 2,
+      "composite_score": 91.8
+    },
+    {
+      "rank": 10,
+      "name": "Uncharted 4: A Thief’s End",
+      "released": "2016-05-10",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 5",
+      "ratings_count": 3728,
+      "rating_10": 8.96,
+      "metacritic": 93,
+      "playtime_hours": 0,
+      "composite_score": 91.6
+    },
+    {
+      "rank": 11,
+      "name": "BioShock",
+      "released": "2007-08-21",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 3",
+      "ratings_count": 3359,
+      "rating_10": 8.72,
+      "metacritic": 96,
+      "playtime_hours": 3,
+      "composite_score": 92.5
+    },
+    {
+      "rank": 12,
+      "name": "The Last Of Us",
+      "released": "2013-06-14",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 3",
+      "ratings_count": 3346,
+      "rating_10": 9.08,
+      "metacritic": 95,
+      "playtime_hours": 15,
+      "composite_score": 93.3
+    },
+    {
+      "rank": 13,
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "released": "2017-03-03",
+      "genre_primary": "Action",
+      "platform_primary": "Nintendo Switch",
+      "ratings_count": 3180,
+      "rating_10": 8.94,
+      "metacritic": 97,
+      "playtime_hours": 121,
+      "composite_score": 94.0
+    },
+    {
+      "rank": 14,
+      "name": "Grand Theft Auto IV",
+      "released": "2008-04-29",
+      "genre_primary": "Action",
+      "platform_primary": "Xbox 360",
+      "ratings_count": 3100,
+      "rating_10": 8.52,
+      "metacritic": 95,
+      "playtime_hours": 10,
+      "composite_score": 91.1
+    },
+    {
+      "rank": 15,
+      "name": "Grand Theft Auto: Vice City",
+      "released": "2002-10-27",
+      "genre_primary": "Action",
+      "platform_primary": "Android",
+      "ratings_count": 3094,
+      "rating_10": 8.9,
+      "metacritic": 94,
+      "playtime_hours": 2,
+      "composite_score": 92.0
+    },
+    {
+      "rank": 16,
+      "name": "Mass Effect 2",
+      "released": "2010-01-26",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "ratings_count": 3081,
+      "rating_10": 8.92,
+      "metacritic": 94,
+      "playtime_hours": 22,
+      "composite_score": 92.1
+    },
+    {
+      "rank": 17,
+      "name": "Team Fortress 2",
+      "released": "2007-10-10",
+      "genre_primary": "Action",
+      "platform_primary": "Linux",
+      "ratings_count": 2935,
+      "rating_10": 7.36,
+      "metacritic": 92,
+      "playtime_hours": 8,
+      "composite_score": 84.6
+    },
+    {
+      "rank": 18,
+      "name": "The Last Of Us Remastered",
+      "released": "2014-07-29",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "ratings_count": 2853,
+      "rating_10": 9.38,
+      "metacritic": 95,
+      "playtime_hours": 16,
+      "composite_score": 94.5
+    },
+    {
+      "rank": 19,
+      "name": "The Walking Dead: Season 1",
+      "released": "2012-04-23",
+      "genre_primary": "Action",
+      "platform_primary": "Android",
+      "ratings_count": 2483,
+      "rating_10": 8.72,
+      "metacritic": 92,
+      "playtime_hours": 8,
+      "composite_score": 90.1
+    },
+    {
+      "rank": 20,
+      "name": "Journey",
+      "released": "2012-03-13",
+      "genre_primary": "Adventure",
+      "platform_primary": "PC",
+      "ratings_count": 2461,
+      "rating_10": 8.64,
+      "metacritic": 92,
+      "playtime_hours": 2,
+      "composite_score": 89.8
+    },
+    {
+      "rank": 21,
+      "name": "Bloodborne",
+      "released": "2015-03-24",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "ratings_count": 2452,
+      "rating_10": 8.82,
+      "metacritic": 92,
+      "playtime_hours": 12,
+      "composite_score": 90.5
+    },
+    {
+      "rank": 22,
+      "name": "Half-Life",
+      "released": "1998-11-19",
+      "genre_primary": "Action",
+      "platform_primary": "Linux",
+      "ratings_count": 2438,
+      "rating_10": 8.76,
+      "metacritic": 96,
+      "playtime_hours": 3,
+      "composite_score": 92.6
+    },
+    {
+      "rank": 23,
+      "name": "Resident Evil 2",
+      "released": "2019-01-25",
+      "genre_primary": "Action",
+      "platform_primary": "Xbox One",
+      "ratings_count": 2265,
+      "rating_10": 9.0,
+      "metacritic": 91,
+      "playtime_hours": 11,
+      "composite_score": 90.6
+    },
+    {
+      "rank": 24,
+      "name": "Red Dead Redemption",
+      "released": "2010-05-18",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "ratings_count": 2199,
+      "rating_10": 8.84,
+      "metacritic": 95,
+      "playtime_hours": 6,
+      "composite_score": 92.4
+    },
+    {
+      "rank": 25,
+      "name": "Batman: Arkham City",
+      "released": "2011-10-18",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "ratings_count": 2168,
+      "rating_10": 8.82,
+      "metacritic": 94,
+      "playtime_hours": 20,
+      "composite_score": 91.7
+    },
+    {
+      "rank": 26,
+      "name": "Hades",
+      "released": "2020-09-17",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 5",
+      "ratings_count": 2079,
+      "rating_10": 8.84,
+      "metacritic": 93,
+      "playtime_hours": 10,
+      "composite_score": 91.2
+    },
+    {
+      "rank": 27,
+      "name": "The Last of Us Part II",
+      "released": "2020-06-19",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "ratings_count": 1989,
+      "rating_10": 8.84,
+      "metacritic": 93,
+      "playtime_hours": 0,
+      "composite_score": 91.2
+    },
+    {
+      "rank": 28,
+      "name": "Uncharted 3: Drake's Deception",
+      "released": "2011-11-01",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "ratings_count": 1951,
+      "rating_10": 8.74,
+      "metacritic": 92,
+      "playtime_hours": 12,
+      "composite_score": 90.2
+    },
+    {
+      "rank": 29,
+      "name": "Super Mario Odyssey",
+      "released": "2017-10-27",
+      "genre_primary": "Arcade",
+      "platform_primary": "Nintendo Switch",
+      "ratings_count": 1921,
+      "rating_10": 8.84,
+      "metacritic": 97,
+      "playtime_hours": 0,
+      "composite_score": 93.6
+    },
+    {
+      "rank": 30,
+      "name": "Undertale",
+      "released": "2015-09-14",
+      "genre_primary": "RPG",
+      "platform_primary": "Xbox Series S/X",
+      "ratings_count": 1885,
+      "rating_10": 8.7,
+      "metacritic": 92,
+      "playtime_hours": 5,
+      "composite_score": 90.0
+    },
+    {
+      "rank": 31,
+      "name": "Call of Duty 4: Modern Warfare",
+      "released": "2007-11-05",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "ratings_count": 1842,
+      "rating_10": 8.78,
+      "metacritic": 92,
+      "playtime_hours": 6,
+      "composite_score": 90.3
+    },
+    {
+      "rank": 32,
+      "name": "Uncharted 2: Among Thieves",
+      "released": "2009-10-13",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "ratings_count": 1799,
+      "rating_10": 8.76,
+      "metacritic": 96,
+      "playtime_hours": 13,
+      "composite_score": 92.6
+    },
+    {
+      "rank": 33,
+      "name": "Celeste",
+      "released": "2018-01-25",
+      "genre_primary": "Indie",
+      "platform_primary": "Xbox One",
+      "ratings_count": 1696,
+      "rating_10": 8.74,
+      "metacritic": 91,
+      "playtime_hours": 6,
+      "composite_score": 89.6
+    },
+    {
+      "rank": 34,
+      "name": "Divinity: Original Sin 2",
+      "released": "2017-09-14",
+      "genre_primary": "RPG",
+      "platform_primary": "PlayStation 4",
+      "ratings_count": 1666,
+      "rating_10": 8.76,
+      "metacritic": 95,
+      "playtime_hours": 22,
+      "composite_score": 92.0
+    },
+    {
+      "rank": 35,
+      "name": "Grand Theft Auto III",
+      "released": "2001-10-22",
+      "genre_primary": "Action",
+      "platform_primary": "macOS",
+      "ratings_count": 1642,
+      "rating_10": 8.3,
+      "metacritic": 93,
+      "playtime_hours": 1,
+      "composite_score": 89.0
+    },
+    {
+      "rank": 36,
+      "name": "Elden Ring",
+      "released": "2022-02-25",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "ratings_count": 1447,
+      "rating_10": 8.78,
+      "metacritic": 95,
+      "playtime_hours": 62,
+      "composite_score": 92.1
+    },
+    {
+      "rank": 37,
+      "name": "Persona 5",
+      "released": "2016-09-15",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 3",
+      "ratings_count": 1440,
+      "rating_10": 8.68,
+      "metacritic": 93,
+      "playtime_hours": 105,
+      "composite_score": 90.5
+    },
+    {
+      "rank": 38,
+      "name": "Warcraft 3: Reign of Chaos",
+      "released": "2002-07-03",
+      "genre_primary": "Strategy",
+      "platform_primary": "PC",
+      "ratings_count": 1413,
+      "rating_10": 8.9,
+      "metacritic": 92,
+      "playtime_hours": 0,
+      "composite_score": 90.8
+    },
+    {
+      "rank": 39,
+      "name": "Disco Elysium",
+      "released": "2019-10-14",
+      "genre_primary": "Adventure",
+      "platform_primary": "PC",
+      "ratings_count": 1334,
+      "rating_10": 8.74,
+      "metacritic": 91,
+      "playtime_hours": 6,
+      "composite_score": 89.6
+    },
+    {
+      "rank": 40,
+      "name": "Ori and the Will of the Wisps",
+      "released": "2020-03-10",
+      "genre_primary": "Action",
+      "platform_primary": "Xbox One",
+      "ratings_count": 1304,
+      "rating_10": 8.84,
+      "metacritic": 91,
+      "playtime_hours": 11,
+      "composite_score": 90.0
+    },
+    {
+      "rank": 41,
+      "name": "Metal Gear Solid",
+      "released": "1998-09-03",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "ratings_count": 1153,
+      "rating_10": 8.8,
+      "metacritic": 94,
+      "playtime_hours": 1,
+      "composite_score": 91.6
+    },
+    {
+      "rank": 42,
+      "name": "Overwatch",
+      "released": "2016-05-24",
+      "genre_primary": "Action",
+      "platform_primary": "Nintendo Switch",
+      "ratings_count": 1149,
+      "rating_10": 8.26,
+      "metacritic": 91,
+      "playtime_hours": 35,
+      "composite_score": 87.6
+    },
+    {
+      "rank": 43,
+      "name": "Super Smash Bros. Ultimate",
+      "released": "2018-12-07",
+      "genre_primary": "Fighting",
+      "platform_primary": "Nintendo Switch",
+      "ratings_count": 1082,
+      "rating_10": 8.74,
+      "metacritic": 93,
+      "playtime_hours": 0,
+      "composite_score": 90.8
+    },
+    {
+      "rank": 44,
+      "name": "Divinity: Original Sin - Enhanced Edition",
+      "released": "2015-10-27",
+      "genre_primary": "RPG",
+      "platform_primary": "PC",
+      "ratings_count": 1027,
+      "rating_10": 8.5,
+      "metacritic": 94,
+      "playtime_hours": 8,
+      "composite_score": 90.4
+    },
+    {
+      "rank": 45,
+      "name": "Baldur's Gate III",
+      "released": "2023-08-03",
+      "genre_primary": "Adventure",
+      "platform_primary": "macOS",
+      "ratings_count": 1007,
+      "rating_10": 8.88,
+      "metacritic": 97,
+      "playtime_hours": 20,
+      "composite_score": 93.7
+    },
+    {
+      "rank": 46,
+      "name": "Braid",
+      "released": "2008-08-06",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 3",
+      "ratings_count": 1000,
+      "rating_10": 8.32,
+      "metacritic": 92,
+      "playtime_hours": 2,
+      "composite_score": 88.5
+    },
+    {
+      "rank": 47,
+      "name": "God of War II",
+      "released": "2007-03-13",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 2",
+      "ratings_count": 962,
+      "rating_10": 8.8,
+      "metacritic": 93,
+      "playtime_hours": 17,
+      "composite_score": 91.0
+    },
+    {
+      "rank": 48,
+      "name": "The Elder Scrolls IV: Oblivion",
+      "released": "2006-03-20",
+      "genre_primary": "Adventure",
+      "platform_primary": "PC",
+      "ratings_count": 959,
+      "rating_10": 8.68,
+      "metacritic": 94,
+      "playtime_hours": 4,
+      "composite_score": 91.1
+    },
+    {
+      "rank": 49,
+      "name": "Fallout 3: Game of the Year Edition",
+      "released": "2009-10-13",
+      "genre_primary": "Action",
+      "platform_primary": "Xbox 360",
+      "ratings_count": 946,
+      "rating_10": 8.28,
+      "metacritic": 91,
+      "playtime_hours": 4,
+      "composite_score": 87.7
+    },
+    {
+      "rank": 50,
+      "name": "Call of Duty",
+      "released": "2003-10-29",
+      "genre_primary": "Shooter / FPS",
+      "platform_primary": "PlayStation 3",
+      "ratings_count": 934,
+      "rating_10": 8.32,
+      "metacritic": 91,
+      "playtime_hours": 6,
+      "composite_score": 87.9
+    }
+  ],
+  "top50_most_appreciated": [
+    {
+      "rank": 1,
+      "name": "The Last Of Us Remastered",
+      "released": "2014-07-29",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "metacritic": 95,
+      "rating_10": 9.38,
+      "composite_score": 94.5,
+      "ratings_count": 2853,
+      "playtime_hours": 16
+    },
+    {
+      "rank": 2,
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "released": "1998-11-21",
+      "genre_primary": "Action",
+      "platform_primary": "Nintendo Switch",
+      "metacritic": 99,
+      "rating_10": 8.76,
+      "composite_score": 94.4,
+      "ratings_count": 873,
+      "playtime_hours": 7
+    },
+    {
+      "rank": 3,
+      "name": "Persona 5 Royal",
+      "released": "2020-03-31",
+      "genre_primary": "Adventure",
+      "platform_primary": "Xbox Series S/X",
+      "metacritic": 94,
+      "rating_10": 9.5,
+      "composite_score": 94.4,
+      "ratings_count": 527,
+      "playtime_hours": 12
+    },
+    {
+      "rank": 4,
+      "name": "Red Dead Redemption 2",
+      "released": "2018-10-26",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "metacritic": 96,
+      "rating_10": 9.18,
+      "composite_score": 94.3,
+      "ratings_count": 5467,
+      "playtime_hours": 21
+    },
+    {
+      "rank": 5,
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "released": "2017-03-03",
+      "genre_primary": "Action",
+      "platform_primary": "Nintendo Switch",
+      "metacritic": 97,
+      "rating_10": 8.94,
+      "composite_score": 94.0,
+      "ratings_count": 3180,
+      "playtime_hours": 121
+    },
+    {
+      "rank": 6,
+      "name": "Soulcalibur",
+      "released": "1998-07-30",
+      "genre_primary": "Action",
+      "platform_primary": "Xbox One",
+      "metacritic": 98,
+      "rating_10": 8.76,
+      "composite_score": 93.8,
+      "ratings_count": 85,
+      "playtime_hours": 6
+    },
+    {
+      "rank": 7,
+      "name": "Baldur's Gate III",
+      "released": "2023-08-03",
+      "genre_primary": "Adventure",
+      "platform_primary": "macOS",
+      "metacritic": 97,
+      "rating_10": 8.88,
+      "composite_score": 93.7,
+      "ratings_count": 1007,
+      "playtime_hours": 20
+    },
+    {
+      "rank": 8,
+      "name": "The Witcher 3: Wild Hunt – Blood and Wine",
+      "released": "2016-05-30",
+      "genre_primary": "RPG",
+      "platform_primary": "PlayStation 4",
+      "metacritic": 92,
+      "rating_10": 9.62,
+      "composite_score": 93.7,
+      "ratings_count": 627,
+      "playtime_hours": 0
+    },
+    {
+      "rank": 9,
+      "name": "Super Mario Odyssey",
+      "released": "2017-10-27",
+      "genre_primary": "Arcade",
+      "platform_primary": "Nintendo Switch",
+      "metacritic": 97,
+      "rating_10": 8.84,
+      "composite_score": 93.6,
+      "ratings_count": 1921,
+      "playtime_hours": 0
+    },
+    {
+      "rank": 10,
+      "name": "Portal 2",
+      "released": "2011-04-18",
+      "genre_primary": "Shooter / FPS",
+      "platform_primary": "PlayStation 3",
+      "metacritic": 95,
+      "rating_10": 9.16,
+      "composite_score": 93.6,
+      "ratings_count": 6082,
+      "playtime_hours": 11
+    },
+    {
+      "rank": 11,
+      "name": "Grand Theft Auto IV: Complete Edition",
+      "released": "2010-10-27",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "metacritic": 95,
+      "rating_10": 9.14,
+      "composite_score": 93.6,
+      "ratings_count": 100,
+      "playtime_hours": 0
+    },
+    {
+      "rank": 12,
+      "name": "The Witcher 3 Wild Hunt - Complete Edition",
+      "released": "2016-08-30",
+      "genre_primary": "Adventure",
+      "platform_primary": "Xbox One",
+      "metacritic": 92,
+      "rating_10": 9.6,
+      "composite_score": 93.6,
+      "ratings_count": 796,
+      "playtime_hours": 0
+    },
+    {
+      "rank": 13,
+      "name": "Half-Life 2",
+      "released": "2004-11-16",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "metacritic": 96,
+      "rating_10": 8.96,
+      "composite_score": 93.4,
+      "ratings_count": 4092,
+      "playtime_hours": 7
+    },
+    {
+      "rank": 14,
+      "name": "The Last Of Us",
+      "released": "2013-06-14",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 3",
+      "metacritic": 95,
+      "rating_10": 9.08,
+      "composite_score": 93.3,
+      "ratings_count": 3346,
+      "playtime_hours": 15
+    },
+    {
+      "rank": 15,
+      "name": "The Elder Scrolls V: Skyrim Legendary Edition",
+      "released": "2013-06-04",
+      "genre_primary": "Adventure",
+      "platform_primary": "PC",
+      "metacritic": 94,
+      "rating_10": 9.18,
+      "composite_score": 93.1,
+      "ratings_count": 138,
+      "playtime_hours": 0
+    },
+    {
+      "rank": 16,
+      "name": "Super Mario Galaxy",
+      "released": "2007-11-01",
+      "genre_primary": "Platformer",
+      "platform_primary": "Nintendo Switch",
+      "metacritic": 97,
+      "rating_10": 8.7,
+      "composite_score": 93.0,
+      "ratings_count": 777,
+      "playtime_hours": 28
+    },
+    {
+      "rank": 17,
+      "name": "Metroid Prime",
+      "released": "2002-11-17",
+      "genre_primary": "Action",
+      "platform_primary": "Wii",
+      "metacritic": 97,
+      "rating_10": 8.7,
+      "composite_score": 93.0,
+      "ratings_count": 258,
+      "playtime_hours": 2
+    },
+    {
+      "rank": 18,
+      "name": "Super Mario Galaxy 2",
+      "released": "2010-05-23",
+      "genre_primary": "Platformer",
+      "platform_primary": "Nintendo Switch",
+      "metacritic": 97,
+      "rating_10": 8.68,
+      "composite_score": 92.9,
+      "ratings_count": 421,
+      "playtime_hours": 18
+    },
+    {
+      "rank": 19,
+      "name": "The Legend of Zelda: Ocarina of Time 3D",
+      "released": "2011-06-19",
+      "genre_primary": "Adventure",
+      "platform_primary": "Nintendo 3DS",
+      "metacritic": 94,
+      "rating_10": 9.1,
+      "composite_score": 92.8,
+      "ratings_count": 360,
+      "playtime_hours": 13
+    },
+    {
+      "rank": 20,
+      "name": "God of War (2018)",
+      "released": "2018-04-20",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "metacritic": 94,
+      "rating_10": 9.08,
+      "composite_score": 92.7,
+      "ratings_count": 5139,
+      "playtime_hours": 15
+    },
+    {
+      "rank": 21,
+      "name": "The Orange Box",
+      "released": "2008-01-01",
+      "genre_primary": "Shooter / FPS",
+      "platform_primary": "Linux",
+      "metacritic": 94,
+      "rating_10": 9.08,
+      "composite_score": 92.7,
+      "ratings_count": 328,
+      "playtime_hours": 6
+    },
+    {
+      "rank": 22,
+      "name": "Half-Life",
+      "released": "1998-11-19",
+      "genre_primary": "Action",
+      "platform_primary": "Linux",
+      "metacritic": 96,
+      "rating_10": 8.76,
+      "composite_score": 92.6,
+      "ratings_count": 2438,
+      "playtime_hours": 3
+    },
+    {
+      "rank": 23,
+      "name": "Uncharted 2: Among Thieves",
+      "released": "2009-10-13",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "metacritic": 96,
+      "rating_10": 8.76,
+      "composite_score": 92.6,
+      "ratings_count": 1799,
+      "playtime_hours": 13
+    },
+    {
+      "rank": 24,
+      "name": "Tekken 3",
+      "released": "1997-03-20",
+      "genre_primary": "Fighting",
+      "platform_primary": "PlayStation",
+      "metacritic": 96,
+      "rating_10": 8.74,
+      "composite_score": 92.6,
+      "ratings_count": 560,
+      "playtime_hours": 1
+    },
+    {
+      "rank": 25,
+      "name": "The Legend of Zelda: Tears of the Kingdom",
+      "released": "2023-05-12",
+      "genre_primary": "Action",
+      "platform_primary": "Nintendo Switch",
+      "metacritic": 96,
+      "rating_10": 8.76,
+      "composite_score": 92.6,
+      "ratings_count": 481,
+      "playtime_hours": 0
+    },
+    {
+      "rank": 26,
+      "name": "GoldenEye 007 (1997)",
+      "released": "1997-08-23",
+      "genre_primary": "Shooter / FPS",
+      "platform_primary": "Nintendo 64",
+      "metacritic": 96,
+      "rating_10": 8.74,
+      "composite_score": 92.6,
+      "ratings_count": 197,
+      "playtime_hours": 0
+    },
+    {
+      "rank": 27,
+      "name": "BioShock",
+      "released": "2007-08-21",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 3",
+      "metacritic": 96,
+      "rating_10": 8.72,
+      "composite_score": 92.5,
+      "ratings_count": 3359,
+      "playtime_hours": 3
+    },
+    {
+      "rank": 28,
+      "name": "Divinity: Original Sin 2 - Definitive Edition",
+      "released": "2018-08-31",
+      "genre_primary": "RPG",
+      "platform_primary": "PlayStation 4",
+      "metacritic": 94,
+      "rating_10": 9.02,
+      "composite_score": 92.5,
+      "ratings_count": 591,
+      "playtime_hours": 10
+    },
+    {
+      "rank": 29,
+      "name": "Red Dead Redemption",
+      "released": "2010-05-18",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "metacritic": 95,
+      "rating_10": 8.84,
+      "composite_score": 92.4,
+      "ratings_count": 2199,
+      "playtime_hours": 6
+    },
+    {
+      "rank": 30,
+      "name": "Metal Gear Solid 2: Sons of Liberty",
+      "released": "2001-11-12",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 2",
+      "metacritic": 96,
+      "rating_10": 8.68,
+      "composite_score": 92.3,
+      "ratings_count": 559,
+      "playtime_hours": 12
+    },
+    {
+      "rank": 31,
+      "name": "StarCraft II: Wings of Liberty",
+      "released": "2010-07-27",
+      "genre_primary": "Strategy",
+      "platform_primary": "PC",
+      "metacritic": 93,
+      "rating_10": 9.12,
+      "composite_score": 92.3,
+      "ratings_count": 281,
+      "playtime_hours": 13
+    },
+    {
+      "rank": 32,
+      "name": "The Witcher 3: Wild Hunt",
+      "released": "2015-05-18",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 5",
+      "metacritic": 92,
+      "rating_10": 9.28,
+      "composite_score": 92.3,
+      "ratings_count": 7170,
+      "playtime_hours": 43
+    },
+    {
+      "rank": 33,
+      "name": "Gran Turismo",
+      "released": "1997-12-22",
+      "genre_primary": "Racing",
+      "platform_primary": "PlayStation",
+      "metacritic": 96,
+      "rating_10": 8.66,
+      "composite_score": 92.2,
+      "ratings_count": 108,
+      "playtime_hours": 0
+    },
+    {
+      "rank": 34,
+      "name": "XCOM 2: War of the Chosen",
+      "released": "2017-08-29",
+      "genre_primary": "Strategy",
+      "platform_primary": "PlayStation 4",
+      "metacritic": 95,
+      "rating_10": 8.8,
+      "composite_score": 92.2,
+      "ratings_count": 232,
+      "playtime_hours": 0
+    },
+    {
+      "rank": 35,
+      "name": "Elden Ring",
+      "released": "2022-02-25",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "metacritic": 95,
+      "rating_10": 8.78,
+      "composite_score": 92.1,
+      "ratings_count": 1447,
+      "playtime_hours": 62
+    },
+    {
+      "rank": 36,
+      "name": "Mass Effect 2",
+      "released": "2010-01-26",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "metacritic": 94,
+      "rating_10": 8.92,
+      "composite_score": 92.1,
+      "ratings_count": 3081,
+      "playtime_hours": 22
+    },
+    {
+      "rank": 37,
+      "name": "Divinity: Original Sin 2",
+      "released": "2017-09-14",
+      "genre_primary": "RPG",
+      "platform_primary": "PlayStation 4",
+      "metacritic": 95,
+      "rating_10": 8.76,
+      "composite_score": 92.0,
+      "ratings_count": 1666,
+      "playtime_hours": 22
+    },
+    {
+      "rank": 38,
+      "name": "Grand Theft Auto: Vice City",
+      "released": "2002-10-27",
+      "genre_primary": "Action",
+      "platform_primary": "Android",
+      "metacritic": 94,
+      "rating_10": 8.9,
+      "composite_score": 92.0,
+      "ratings_count": 3094,
+      "playtime_hours": 2
+    },
+    {
+      "rank": 39,
+      "name": "The Legend of Zelda: A Link to the Past",
+      "released": "1991-11-21",
+      "genre_primary": "Action",
+      "platform_primary": "Wii",
+      "metacritic": 95,
+      "rating_10": 8.7,
+      "composite_score": 91.8,
+      "ratings_count": 579,
+      "playtime_hours": 28
+    },
+    {
+      "rank": 40,
+      "name": "The Elder Scrolls V: Skyrim",
+      "released": "2011-11-11",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 5",
+      "metacritic": 94,
+      "rating_10": 8.84,
+      "composite_score": 91.8,
+      "ratings_count": 4907,
+      "playtime_hours": 46
+    },
+    {
+      "rank": 41,
+      "name": "Grand Theft Auto: San Andreas",
+      "released": "2004-10-26",
+      "genre_primary": "Action",
+      "platform_primary": "macOS",
+      "metacritic": 93,
+      "rating_10": 9.0,
+      "composite_score": 91.8,
+      "ratings_count": 4049,
+      "playtime_hours": 2
+    },
+    {
+      "rank": 42,
+      "name": "Batman: Arkham City",
+      "released": "2011-10-18",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "metacritic": 94,
+      "rating_10": 8.82,
+      "composite_score": 91.7,
+      "ratings_count": 2168,
+      "playtime_hours": 20
+    },
+    {
+      "rank": 43,
+      "name": "The Legend of Zelda: Majora's Mask",
+      "released": "2000-04-27",
+      "genre_primary": "Action",
+      "platform_primary": "Nintendo Switch",
+      "metacritic": 95,
+      "rating_10": 8.66,
+      "composite_score": 91.6,
+      "ratings_count": 419,
+      "playtime_hours": 23
+    },
+    {
+      "rank": 44,
+      "name": "Metal Gear Solid",
+      "released": "1998-09-03",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "metacritic": 94,
+      "rating_10": 8.8,
+      "composite_score": 91.6,
+      "ratings_count": 1153,
+      "playtime_hours": 1
+    },
+    {
+      "rank": 45,
+      "name": "Burnout 3: Takedown",
+      "released": "2004-09-07",
+      "genre_primary": "Racing",
+      "platform_primary": "Xbox",
+      "metacritic": 94,
+      "rating_10": 8.8,
+      "composite_score": 91.6,
+      "ratings_count": 159,
+      "playtime_hours": 23
+    },
+    {
+      "rank": 46,
+      "name": "Uncharted 4: A Thief’s End",
+      "released": "2016-05-10",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 5",
+      "metacritic": 93,
+      "rating_10": 8.96,
+      "composite_score": 91.6,
+      "ratings_count": 3728,
+      "playtime_hours": 0
+    },
+    {
+      "rank": 47,
+      "name": "Super Mario 64",
+      "released": "1996-06-23",
+      "genre_primary": "Platformer",
+      "platform_primary": "Nintendo 64",
+      "metacritic": 94,
+      "rating_10": 8.78,
+      "composite_score": 91.5,
+      "ratings_count": 757,
+      "playtime_hours": 12
+    },
+    {
+      "rank": 48,
+      "name": "Diablo",
+      "released": "1996-12-31",
+      "genre_primary": "Action",
+      "platform_primary": "PC",
+      "metacritic": 94,
+      "rating_10": 8.78,
+      "composite_score": 91.5,
+      "ratings_count": 536,
+      "playtime_hours": 1
+    },
+    {
+      "rank": 49,
+      "name": "Chrono Cross",
+      "released": "1999-11-18",
+      "genre_primary": "RPG",
+      "platform_primary": "PlayStation",
+      "metacritic": 94,
+      "rating_10": 8.78,
+      "composite_score": 91.5,
+      "ratings_count": 147,
+      "playtime_hours": 42
+    },
+    {
+      "rank": 50,
+      "name": "BioShock Infinite",
+      "released": "2013-03-26",
+      "genre_primary": "Action",
+      "platform_primary": "PlayStation 4",
+      "metacritic": 94,
+      "rating_10": 8.76,
+      "composite_score": 91.4,
+      "ratings_count": 4168,
+      "playtime_hours": 12
+    }
+  ],
+  "genre_analysis": [
+    {
+      "genre_primary": "Platformer",
+      "nb_jeux": 5,
+      "score_meta_moy": 94.6,
+      "score_joueurs_moy": 8.54,
+      "score_composite": 90.92,
+      "popularite_moy": 442.6,
+      "playtime_moy_h": 11.6,
+      "rank": 1
+    },
+    {
+      "genre_primary": "RPG",
+      "nb_jeux": 22,
+      "score_meta_moy": 92.55,
+      "score_joueurs_moy": 8.74,
+      "score_composite": 90.5,
+      "popularite_moy": 473.91,
+      "playtime_moy_h": 18.95,
+      "rank": 2
+    },
+    {
+      "genre_primary": "Shooter / FPS",
+      "nb_jeux": 11,
+      "score_meta_moy": 93.0,
+      "score_joueurs_moy": 8.62,
+      "score_composite": 90.27,
+      "popularite_moy": 981.0,
+      "playtime_moy_h": 6.82,
+      "rank": 3
+    },
+    {
+      "genre_primary": "Action",
+      "nb_jeux": 99,
+      "score_meta_moy": 93.12,
+      "score_joueurs_moy": 8.53,
+      "score_composite": 89.99,
+      "popularite_moy": 1242.03,
+      "playtime_moy_h": 10.57,
+      "rank": 4
+    },
+    {
+      "genre_primary": "Indie",
+      "nb_jeux": 1,
+      "score_meta_moy": 91.0,
+      "score_joueurs_moy": 8.74,
+      "score_composite": 89.6,
+      "popularite_moy": 1696.0,
+      "playtime_moy_h": 6.0,
+      "rank": 5
+    },
+    {
+      "genre_primary": "Sports",
+      "nb_jeux": 7,
+      "score_meta_moy": 92.0,
+      "score_joueurs_moy": 8.59,
+      "score_composite": 89.57,
+      "popularite_moy": 133.43,
+      "playtime_moy_h": 6.43,
+      "rank": 6
+    },
+    {
+      "genre_primary": "Arcade",
+      "nb_jeux": 4,
+      "score_meta_moy": 93.5,
+      "score_joueurs_moy": 8.36,
+      "score_composite": 89.52,
+      "popularite_moy": 756.25,
+      "playtime_moy_h": 5.25,
+      "rank": 7
+    },
+    {
+      "genre_primary": "Family / Casual",
+      "nb_jeux": 1,
+      "score_meta_moy": 92.0,
+      "score_joueurs_moy": 8.58,
+      "score_composite": 89.5,
+      "popularite_moy": 37.0,
+      "playtime_moy_h": 0.0,
+      "rank": 8
+    },
+    {
+      "genre_primary": "Adventure",
+      "nb_jeux": 15,
+      "score_meta_moy": 92.87,
+      "score_joueurs_moy": 8.21,
+      "score_composite": 88.55,
+      "popularite_moy": 569.07,
+      "playtime_moy_h": 8.6,
+      "rank": 9
+    },
+    {
+      "genre_primary": "Racing",
+      "nb_jeux": 10,
+      "score_meta_moy": 92.6,
+      "score_joueurs_moy": 8.24,
+      "score_composite": 88.51,
+      "popularite_moy": 198.2,
+      "playtime_moy_h": 13.7,
+      "rank": 10
+    },
+    {
+      "genre_primary": "Simulation",
+      "nb_jeux": 3,
+      "score_meta_moy": 92.0,
+      "score_joueurs_moy": 8.15,
+      "score_composite": 87.8,
+      "popularite_moy": 32.33,
+      "playtime_moy_h": 0.0,
+      "rank": 11
+    },
+    {
+      "genre_primary": "Strategy",
+      "nb_jeux": 17,
+      "score_meta_moy": 92.71,
+      "score_joueurs_moy": 7.01,
+      "score_composite": 83.66,
+      "popularite_moy": 286.65,
+      "playtime_moy_h": 1.76,
+      "rank": 12
+    },
+    {
+      "genre_primary": "Fighting",
+      "nb_jeux": 5,
+      "score_meta_moy": 94.2,
+      "score_joueurs_moy": 5.19,
+      "score_composite": 77.28,
+      "popularite_moy": 343.2,
+      "playtime_moy_h": 0.2,
+      "rank": 13
+    }
+  ],
+  "adventure_genre_rank": [
+    {
+      "genre_primary": "RPG",
+      "rank": 2,
+      "score_composite": 90.5,
+      "nb_jeux": 22
+    },
+    {
+      "genre_primary": "Action",
+      "rank": 4,
+      "score_composite": 89.99,
+      "nb_jeux": 99
+    },
+    {
+      "genre_primary": "Adventure",
+      "rank": 9,
+      "score_composite": 88.55,
+      "nb_jeux": 15
+    }
+  ],
+  "by_year": [
+    {
+      "release_year": 1995,
+      "nb_jeux": 2,
+      "score_meta_moy": 92.5,
+      "score_joueurs_moy": 8.65,
+      "popularite_totale": 380,
+      "playtime_moy_h": 0.0
+    },
+    {
+      "release_year": 1996,
+      "nb_jeux": 6,
+      "score_meta_moy": 93.33,
+      "score_joueurs_moy": 8.51,
+      "popularite_totale": 1903,
+      "playtime_moy_h": 2.33
+    },
+    {
+      "release_year": 1997,
+      "nb_jeux": 6,
+      "score_meta_moy": 94.0,
+      "score_joueurs_moy": 5.81,
+      "popularite_totale": 1434,
+      "playtime_moy_h": 3.33
+    },
+    {
+      "release_year": 1998,
+      "nb_jeux": 9,
+      "score_meta_moy": 94.89,
+      "score_joueurs_moy": 7.74,
+      "popularite_totale": 5246,
+      "playtime_moy_h": 10.67
+    },
+    {
+      "release_year": 1999,
+      "nb_jeux": 12,
+      "score_meta_moy": 92.17,
+      "score_joueurs_moy": 8.39,
+      "popularite_totale": 2321,
+      "playtime_moy_h": 4.25
+    },
+    {
+      "release_year": 2000,
+      "nb_jeux": 13,
+      "score_meta_moy": 93.15,
+      "score_joueurs_moy": 7.72,
+      "popularite_totale": 2485,
+      "playtime_moy_h": 3.15
+    },
+    {
+      "release_year": 2001,
+      "nb_jeux": 12,
+      "score_meta_moy": 92.42,
+      "score_joueurs_moy": 8.45,
+      "popularite_totale": 3502,
+      "playtime_moy_h": 9.08
+    },
+    {
+      "release_year": 2002,
+      "nb_jeux": 13,
+      "score_meta_moy": 92.31,
+      "score_joueurs_moy": 7.94,
+      "popularite_totale": 6345,
+      "playtime_moy_h": 4.62
+    },
+    {
+      "release_year": 2003,
+      "nb_jeux": 5,
+      "score_meta_moy": 92.8,
+      "score_joueurs_moy": 8.46,
+      "popularite_totale": 1166,
+      "playtime_moy_h": 1.2
+    },
+    {
+      "release_year": 2004,
+      "nb_jeux": 8,
+      "score_meta_moy": 93.12,
+      "score_joueurs_moy": 8.77,
+      "popularite_totale": 9407,
+      "playtime_moy_h": 20.88
+    },
+    {
+      "release_year": 2005,
+      "nb_jeux": 9,
+      "score_meta_moy": 92.22,
+      "score_joueurs_moy": 8.38,
+      "popularite_totale": 2740,
+      "playtime_moy_h": 5.33
+    },
+    {
+      "release_year": 2006,
+      "nb_jeux": 6,
+      "score_meta_moy": 92.83,
+      "score_joueurs_moy": 8.19,
+      "popularite_totale": 1889,
+      "playtime_moy_h": 2.5
+    },
+    {
+      "release_year": 2007,
+      "nb_jeux": 8,
+      "score_meta_moy": 93.0,
+      "score_joueurs_moy": 8.49,
+      "popularite_totale": 11127,
+      "playtime_moy_h": 8.38
+    },
+    {
+      "release_year": 2008,
+      "nb_jeux": 8,
+      "score_meta_moy": 93.38,
+      "score_joueurs_moy": 8.62,
+      "popularite_totale": 7021,
+      "playtime_moy_h": 11.12
+    },
+    {
+      "release_year": 2009,
+      "nb_jeux": 7,
+      "score_meta_moy": 92.71,
+      "score_joueurs_moy": 8.41,
+      "popularite_totale": 3841,
+      "playtime_moy_h": 6.43
+    },
+    {
+      "release_year": 2010,
+      "nb_jeux": 10,
+      "score_meta_moy": 93.5,
+      "score_joueurs_moy": 8.67,
+      "popularite_totale": 8746,
+      "playtime_moy_h": 9.5
+    },
+    {
+      "release_year": 2011,
+      "nb_jeux": 9,
+      "score_meta_moy": 92.89,
+      "score_joueurs_moy": 8.28,
+      "popularite_totale": 16746,
+      "playtime_moy_h": 24.11
+    },
+    {
+      "release_year": 2012,
+      "nb_jeux": 3,
+      "score_meta_moy": 92.0,
+      "score_joueurs_moy": 8.71,
+      "popularite_totale": 5190,
+      "playtime_moy_h": 3.33
+    },
+    {
+      "release_year": 2013,
+      "nb_jeux": 6,
+      "score_meta_moy": 93.17,
+      "score_joueurs_moy": 8.91,
+      "popularite_totale": 15615,
+      "playtime_moy_h": 30.83
+    },
+    {
+      "release_year": 2014,
+      "nb_jeux": 3,
+      "score_meta_moy": 93.0,
+      "score_joueurs_moy": 8.89,
+      "popularite_totale": 3233,
+      "playtime_moy_h": 5.33
+    },
+    {
+      "release_year": 2015,
+      "nb_jeux": 7,
+      "score_meta_moy": 92.86,
+      "score_joueurs_moy": 8.54,
+      "popularite_totale": 12771,
+      "playtime_moy_h": 9.86
+    },
+    {
+      "release_year": 2016,
+      "nb_jeux": 6,
+      "score_meta_moy": 92.17,
+      "score_joueurs_moy": 8.3,
+      "popularite_totale": 7752,
+      "playtime_moy_h": 24.0
+    },
+    {
+      "release_year": 2017,
+      "nb_jeux": 8,
+      "score_meta_moy": 93.75,
+      "score_joueurs_moy": 7.65,
+      "popularite_totale": 8634,
+      "playtime_moy_h": 20.25
+    },
+    {
+      "release_year": 2018,
+      "nb_jeux": 6,
+      "score_meta_moy": 93.17,
+      "score_joueurs_moy": 8.9,
+      "popularite_totale": 14574,
+      "playtime_moy_h": 8.67
+    },
+    {
+      "release_year": 2019,
+      "nb_jeux": 4,
+      "score_meta_moy": 91.0,
+      "score_joueurs_moy": 8.69,
+      "popularite_totale": 3792,
+      "playtime_moy_h": 5.25
+    },
+    {
+      "release_year": 2020,
+      "nb_jeux": 7,
+      "score_meta_moy": 92.57,
+      "score_joueurs_moy": 8.78,
+      "popularite_totale": 6653,
+      "playtime_moy_h": 5.71
+    },
+    {
+      "release_year": 2022,
+      "nb_jeux": 1,
+      "score_meta_moy": 95.0,
+      "score_joueurs_moy": 8.78,
+      "popularite_totale": 1447,
+      "playtime_moy_h": 62.0
+    },
+    {
+      "release_year": 2023,
+      "nb_jeux": 2,
+      "score_meta_moy": 96.5,
+      "score_joueurs_moy": 8.82,
+      "popularite_totale": 1488,
+      "playtime_moy_h": 10.0
+    }
+  ],
+  "by_decade": [
+    {
+      "decade": "1990s",
+      "nb_jeux": 39,
+      "score_meta_moy": 93.36,
+      "rating_moy": 7.91
+    },
+    {
+      "decade": "2000s",
+      "nb_jeux": 89,
+      "score_meta_moy": 92.76,
+      "rating_moy": 8.29
+    },
+    {
+      "decade": "2010s",
+      "nb_jeux": 62,
+      "score_meta_moy": 92.92,
+      "rating_moy": 8.49
+    },
+    {
+      "decade": "2020s",
+      "nb_jeux": 10,
+      "score_meta_moy": 93.6,
+      "rating_moy": 8.79
+    }
+  ],
+  "correlations": {
+    "metacritic": {
+      "metacritic": 1.0,
+      "rating_10": 0.08,
+      "ratings_count": 0.216,
+      "playtime_hours": 0.091
+    },
+    "rating_10": {
+      "metacritic": 0.08,
+      "rating_10": 1.0,
+      "ratings_count": 0.208,
+      "playtime_hours": 0.118
+    },
+    "ratings_count": {
+      "metacritic": 0.216,
+      "rating_10": 0.208,
+      "ratings_count": 1.0,
+      "playtime_hours": 0.28
+    },
+    "playtime_hours": {
+      "metacritic": 0.091,
+      "rating_10": 0.118,
+      "ratings_count": 0.28,
+      "playtime_hours": 1.0
+    }
+  },
+  "by_platform": [
+    {
+      "platform_primary": "PC",
+      "nb_jeux": 54,
+      "score_meta_moy": 92.76,
+      "score_joueur_moy": 8.1,
+      "popularite_moy": 751.37
+    },
+    {
+      "platform_primary": "PlayStation 4",
+      "nb_jeux": 15,
+      "score_meta_moy": 93.27,
+      "score_joueur_moy": 8.84,
+      "popularite_moy": 1565.0
+    },
+    {
+      "platform_primary": "Nintendo Switch",
+      "nb_jeux": 13,
+      "score_meta_moy": 94.54,
+      "score_joueur_moy": 8.71,
+      "popularite_moy": 884.38
+    },
+    {
+      "platform_primary": "PlayStation 3",
+      "nb_jeux": 11,
+      "score_meta_moy": 93.45,
+      "score_joueur_moy": 8.61,
+      "popularite_moy": 1669.91
+    },
+    {
+      "platform_primary": "PlayStation",
+      "nb_jeux": 10,
+      "score_meta_moy": 93.1,
+      "score_joueur_moy": 8.64,
+      "popularite_moy": 149.9
+    },
+    {
+      "platform_primary": "PlayStation 2",
+      "nb_jeux": 9,
+      "score_meta_moy": 92.33,
+      "score_joueur_moy": 7.67,
+      "popularite_moy": 304.56
+    },
+    {
+      "platform_primary": "Xbox 360",
+      "nb_jeux": 9,
+      "score_meta_moy": 92.78,
+      "score_joueur_moy": 8.25,
+      "popularite_moy": 751.11
+    },
+    {
+      "platform_primary": "Game Boy Advance",
+      "nb_jeux": 7,
+      "score_meta_moy": 92.0,
+      "score_joueur_moy": 8.35,
+      "popularite_moy": 101.86
+    },
+    {
+      "platform_primary": "Xbox One",
+      "nb_jeux": 7,
+      "score_meta_moy": 92.71,
+      "score_joueur_moy": 8.84,
+      "popularite_moy": 958.0
+    },
+    {
+      "platform_primary": "Nintendo 64",
+      "nb_jeux": 6,
+      "score_meta_moy": 93.0,
+      "score_joueur_moy": 8.5,
+      "popularite_moy": 256.67
+    },
+    {
+      "platform_primary": "Wii",
+      "nb_jeux": 6,
+      "score_meta_moy": 93.67,
+      "score_joueur_moy": 8.65,
+      "popularite_moy": 249.0
+    },
+    {
+      "platform_primary": "macOS",
+      "nb_jeux": 6,
+      "score_meta_moy": 93.5,
+      "score_joueur_moy": 8.67,
+      "popularite_moy": 1176.67
+    },
+    {
+      "platform_primary": "PlayStation 5",
+      "nb_jeux": 6,
+      "score_meta_moy": 92.67,
+      "score_joueur_moy": 8.95,
+      "popularite_moy": 4243.0
+    },
+    {
+      "platform_primary": "iOS",
+      "nb_jeux": 5,
+      "score_meta_moy": 91.8,
+      "score_joueur_moy": 6.45,
+      "popularite_moy": 251.6
+    },
+    {
+      "platform_primary": "Android",
+      "nb_jeux": 5,
+      "score_meta_moy": 93.6,
+      "score_joueur_moy": 8.48,
+      "popularite_moy": 1188.2
+    }
+  ],
+  "popular_but_bad": [
+    {
+      "name": "Team Fortress 2",
+      "genre_primary": "Action",
+      "metacritic": 92,
+      "rating_10": 7.36,
+      "ratings_count": 2935
+    }
+  ],
+  "hidden_gems": [
+    {
+      "name": "Soulcalibur",
+      "genre_primary": "Action",
+      "metacritic": 98,
+      "rating_10": 8.76,
+      "ratings_count": 85,
+      "release_year": 1998
+    },
+    {
+      "name": "Grand Theft Auto IV: Complete Edition",
+      "genre_primary": "Action",
+      "metacritic": 95,
+      "rating_10": 9.14,
+      "ratings_count": 100,
+      "release_year": 2010
+    }
+  ]
+}

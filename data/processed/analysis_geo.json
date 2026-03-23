@@ -1,0 +1,117 @@
+{
+  "overview": {
+    "total_players_millions": 2700,
+    "total_revenue_usd_bn": 238.0,
+    "nb_regions": 6,
+    "top_region_players": "Asia-Pacific",
+    "top_region_revenue": "Asia-Pacific",
+    "fastest_growing": "Middle East & Africa",
+    "fastest_growth_pct": 14.7
+  },
+  "all_regions": [
+    {
+      "region": "Asia-Pacific",
+      "players_millions": 1500,
+      "market_share_pct": 46.0,
+      "revenue_usd_bn": 90.2,
+      "yoy_growth_pct": 8.5,
+      "revenue_per_player_usd": 60.13,
+      "revenue_share_pct": 37.9,
+      "rank": 1
+    },
+    {
+      "region": "North America",
+      "players_millions": 220,
+      "market_share_pct": 11.0,
+      "revenue_usd_bn": 55.8,
+      "yoy_growth_pct": 6.2,
+      "revenue_per_player_usd": 253.64,
+      "revenue_share_pct": 23.4,
+      "rank": 2
+    },
+    {
+      "region": "Europe",
+      "players_millions": 290,
+      "market_share_pct": 12.0,
+      "revenue_usd_bn": 39.5,
+      "yoy_growth_pct": 4.8,
+      "revenue_per_player_usd": 136.21,
+      "revenue_share_pct": 16.6,
+      "rank": 3
+    },
+    {
+      "region": "Latin America",
+      "players_millions": 280,
+      "market_share_pct": 7.5,
+      "revenue_usd_bn": 27.3,
+      "yoy_growth_pct": 11.2,
+      "revenue_per_player_usd": 97.5,
+      "revenue_share_pct": 11.5,
+      "rank": 4
+    },
+    {
+      "region": "Middle East & Africa",
+      "players_millions": 280,
+      "market_share_pct": 6.5,
+      "revenue_usd_bn": 16.8,
+      "yoy_growth_pct": 14.7,
+      "revenue_per_player_usd": 60.0,
+      "revenue_share_pct": 7.1,
+      "rank": 5
+    },
+    {
+      "region": "Rest of World",
+      "players_millions": 130,
+      "market_share_pct": 4.5,
+      "revenue_usd_bn": 8.4,
+      "yoy_growth_pct": 9.3,
+      "revenue_per_player_usd": 64.62,
+      "revenue_share_pct": 3.5,
+      "rank": 6
+    }
+  ],
+  "revenue_per_player": [
+    {
+      "region": "North America",
+      "players_millions": 220,
+      "revenue_usd_bn": 55.8,
+      "revenue_per_player_usd": 253.64
+    },
+    {
+      "region": "Europe",
+      "players_millions": 290,
+      "revenue_usd_bn": 39.5,
+      "revenue_per_player_usd": 136.21
+    },
+    {
+      "region": "Latin America",
+      "players_millions": 280,
+      "revenue_usd_bn": 27.3,
+      "revenue_per_player_usd": 97.5
+    },
+    {
+      "region": "Rest of World",
+      "players_millions": 130,
+      "revenue_usd_bn": 8.4,
+      "revenue_per_player_usd": 64.62
+    },
+    {
+      "region": "Asia-Pacific",
+      "players_millions": 1500,
+      "revenue_usd_bn": 90.2,
+      "revenue_per_player_usd": 60.13
+    },
+    {
+      "region": "Middle East & Africa",
+      "players_millions": 280,
+      "revenue_usd_bn": 16.8,
+      "revenue_per_player_usd": 60.0
+    }
+  ],
+  "disparity": {
+    "max_revenue_per_player": 253.64,
+    "min_revenue_per_player": 60.0,
+    "ratio": 4.2,
+    "interpretation": "Les joueurs Nord-Américains et Européens génèrent bien plus de revenus par tête que les joueurs Asiatiques ou Latino-Américains, malgré leur nombre plus faible."
+  }
+}

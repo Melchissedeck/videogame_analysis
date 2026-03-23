@@ -1,0 +1,82 @@
+family,job_title,avg_salary_usd,seniority,remote_friendly,seniority_rank,salary_band,family_median_salary
+AI & Innovation,Metaverse Developer,115000,Mid,True,2,$110K–$150K,112500.0
+AI & Innovation,UX Researcher,88000,Mid,True,2,$80K–$110K,112500.0
+AI & Innovation,ML Engineer (NPC AI),130000,Senior,True,3,$110K–$150K,112500.0
+AI & Innovation,VR/AR Specialist,110000,Senior,True,3,$110K–$150K,112500.0
+Animation & VFX,Facial Animator,80000,Mid,True,2,$80K–$110K,82500.0
+Animation & VFX,VFX Artist,78000,Mid,True,2,$50K–$80K,82500.0
+Animation & VFX,3D Animator,72000,Mid,True,2,$50K–$80K,82500.0
+Animation & VFX,Cinematic Director,95000,Senior,True,3,$80K–$110K,82500.0
+Animation & VFX,Motion Capture Supervisor,90000,Senior,False,3,$80K–$110K,82500.0
+Animation & VFX,Technical Animator,85000,Senior,True,3,$80K–$110K,82500.0
+Art & Design,UI/UX Designer,80000,Mid,True,2,$80K–$110K,72000.0
+Art & Design,Character Artist (3D),74000,Mid,True,2,$50K–$80K,72000.0
+Art & Design,Game Designer,72000,Mid,True,2,$50K–$80K,72000.0
+Art & Design,Environment Artist (3D),72000,Mid,True,2,$50K–$80K,72000.0
+Art & Design,Narrative Designer,70000,Mid,True,2,$50K–$80K,72000.0
+Art & Design,Level Designer,68000,Mid,True,2,$50K–$80K,72000.0
+Art & Design,2D Animator,68000,Mid,True,2,$50K–$80K,72000.0
+Art & Design,Concept Artist,65000,Mid,True,2,$50K–$80K,72000.0
+Art & Design,Storyboard Artist,62000,Mid,True,2,$50K–$80K,72000.0
+Art & Design,Art Director,95000,Senior,True,3,$80K–$110K,72000.0
+Art & Design,Technical Artist,85000,Senior,True,3,$80K–$110K,72000.0
+Audio,Composer,75000,Mid,True,2,$50K–$80K,75000.0
+Audio,Sound Designer,70000,Mid,True,2,$50K–$80K,75000.0
+Audio,Audio Engineer,68000,Mid,False,2,$50K–$80K,75000.0
+Audio,Audio Director,105000,Senior,True,3,$80K–$110K,75000.0
+Audio,Dialogue Director,85000,Senior,False,3,$80K–$110K,75000.0
+Business & Marketing,Product Manager,95000,Mid,True,2,$80K–$110K,89000.0
+Business & Marketing,User Acquisition Manager,92000,Mid,True,2,$80K–$110K,89000.0
+Business & Marketing,Growth Hacker,90000,Mid,True,2,$80K–$110K,89000.0
+Business & Marketing,Brand Manager,88000,Mid,True,2,$80K–$110K,89000.0
+Business & Marketing,Data Analyst,85000,Mid,True,2,$80K–$110K,89000.0
+Business & Marketing,ASO Specialist,80000,Mid,True,2,$80K–$110K,89000.0
+Business & Marketing,Community Manager,55000,Mid,True,2,$50K–$80K,89000.0
+Business & Marketing,Publisher,130000,Senior,False,3,$110K–$150K,89000.0
+Communication & PR,PR Manager,78000,Mid,True,2,$50K–$80K,64000.0
+Communication & PR,Trailer Editor,70000,Mid,True,2,$50K–$80K,64000.0
+Communication & PR,Social Media Manager,58000,Mid,True,2,$50K–$80K,64000.0
+Communication & PR,Copywriter,55000,Mid,True,2,$50K–$80K,64000.0
+Esports & Content,Esports Analyst,70000,Mid,True,2,$50K–$80K,60000.0
+Esports & Content,Esports Coach,65000,Mid,True,2,$50K–$80K,60000.0
+Esports & Content,Pro Player,60000,Mid,False,2,$50K–$80K,60000.0
+Esports & Content,Caster / Commentator,55000,Mid,False,2,$50K–$80K,60000.0
+Esports & Content,Streamer,50000,Mid,True,2,$50K–$80K,60000.0
+Esports & Content,Games Journalist,50000,Mid,True,2,$50K–$80K,60000.0
+Esports & Content,Tournament Organizer,75000,Senior,False,3,$50K–$80K,60000.0
+Legal & Finance,CFO,175000,Senior,False,3,$150K+,105000.0
+Legal & Finance,Games IP Lawyer,120000,Senior,True,3,$110K–$150K,105000.0
+Legal & Finance,Compliance Officer,90000,Senior,True,3,$80K–$110K,105000.0
+Legal & Finance,HR Manager,80000,Senior,True,3,$80K–$110K,105000.0
+Production,Product Owner,92000,Mid,True,2,$80K–$110K,100000.0
+Production,Scrum Master,90000,Mid,True,2,$80K–$110K,100000.0
+Production,Project Manager,88000,Mid,True,2,$80K–$110K,100000.0
+Production,Executive Producer,145000,Senior,False,3,$110K–$150K,100000.0
+Production,Game Director,140000,Senior,False,3,$110K–$150K,100000.0
+Production,Studio Manager,130000,Senior,False,3,$110K–$150K,100000.0
+Production,Producer,100000,Senior,True,3,$80K–$110K,100000.0
+Programming,DevOps Engineer,112000,Mid,True,2,$110K–$150K,113500.0
+Programming,Gameplay Programmer,105000,Mid,True,2,$80K–$110K,113500.0
+Programming,Tools Developer,100000,Mid,True,2,$80K–$110K,113500.0
+Programming,Mobile Developer,95000,Mid,True,2,$80K–$110K,113500.0
+Programming,Lead Programmer,145000,Senior,True,3,$110K–$150K,113500.0
+Programming,Graphics Programmer,120000,Senior,True,3,$110K–$150K,113500.0
+Programming,Security Engineer,120000,Senior,True,3,$110K–$150K,113500.0
+Programming,AI Programmer,118000,Senior,True,3,$110K–$150K,113500.0
+Programming,Network Programmer,115000,Senior,True,3,$110K–$150K,113500.0
+Programming,Shader Developer,110000,Senior,True,3,$110K–$150K,113500.0
+QA,QA Tester,45000,Junior,False,1,< $50K,55000.0
+QA,QA Lead,70000,Mid,True,2,$50K–$80K,55000.0
+QA,Accessibility Tester,55000,Mid,True,2,$50K–$80K,55000.0
+QA,Localization Tester,52000,Mid,True,2,$50K–$80K,55000.0
+QA,QA Manager,90000,Senior,True,3,$80K–$110K,55000.0
+Tech & Infrastructure,Cloud Engineer,120000,Mid,True,2,$110K–$150K,117500.0
+Tech & Infrastructure,Backend Engineer,115000,Mid,True,2,$110K–$150K,117500.0
+Tech & Infrastructure,Database Engineer,108000,Mid,True,2,$80K–$110K,117500.0
+Tech & Infrastructure,SRE,130000,Senior,True,3,$110K–$150K,117500.0
+Writing & Narrative,Quest Designer,68000,Mid,True,2,$50K–$80K,63500.0
+Writing & Narrative,Game Writer,65000,Mid,True,2,$50K–$80K,63500.0
+Writing & Narrative,Dialogue Writer,62000,Mid,True,2,$50K–$80K,63500.0
+Writing & Narrative,Lore Writer,60000,Mid,True,2,$50K–$80K,63500.0
+Writing & Narrative,Localizer / Translator,55000,Mid,True,2,$50K–$80K,63500.0
+Writing & Narrative,Narrative Director,95000,Senior,True,3,$80K–$110K,63500.0

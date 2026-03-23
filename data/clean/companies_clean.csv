@@ -1,0 +1,51 @@
+rank,name,country,market_cap_usd_bn,revenue_usd_bn,employees,founded,hq_city,continent,company_age,ratio_cap_revenue,revenue_per_employee
+1,Tencent Holdings,China,380.0,86.0,110000,1998.0,Shenzhen,Asia,27,4.42,781818.0
+2,Sony Interactive Entertainment,Japan,109.0,28.9,30000,1993.0,Tokyo,Asia,32,3.77,963333.0
+3,Nintendo,Japan,107.0,14.8,7000,,Kyoto,Asia,25,7.23,2114286.0
+4,Microsoft Gaming,USA,100.0,21.4,30000,2002.0,Redmond,North America,23,4.67,713333.0
+5,Apple (Gaming),USA,98.0,22.0,164000,1976.0,Cupertino,North America,49,4.45,134146.0
+6,Activision Blizzard,USA,95.0,9.5,9500,1979.0,Santa Monica,North America,46,10.0,1000000.0
+7,Roblox Corporation,USA,69.8,3.6,4300,2006.0,San Mateo,North America,19,19.39,837209.0
+8,NetEase,China,56.0,13.7,26000,1997.0,Hangzhou,Asia,28,4.09,526923.0
+9,Sea Limited (Garena),Singapore,52.0,2.8,67000,2009.0,Singapore,Asia,16,18.57,41791.0
+10,Electronic Arts,USA,42.8,7.6,12800,1982.0,Redwood City,North America,43,5.63,593750.0
+11,Take-Two Interactive,USA,37.0,5.3,11000,1993.0,New York,North America,32,6.98,481818.0
+12,Bandai Namco,Japan,34.5,8.9,12000,2006.0,Tokyo,Asia,19,3.88,741667.0
+13,Square Enix,Japan,22.0,2.8,5300,2003.0,Tokyo,Asia,22,7.86,528302.0
+14,Capcom,Japan,20.8,1.4,3200,1979.0,Osaka,Asia,46,14.86,437500.0
+15,Krafton,South Korea,18.5,1.6,4600,2007.0,Seongnam,Asia,18,11.56,347826.0
+16,Nexon,South Korea,15.2,2.3,7200,1994.0,Seoul,Asia,31,6.61,319444.0
+17,Konami,Japan,14.9,2.6,10300,1969.0,Tokyo,Asia,56,5.73,252427.0
+18,Ubisoft,France,12.0,2.2,19000,1986.0,Paris,Europe,39,5.45,115789.0
+19,CD Projekt,Poland,11.8,0.7,1100,1994.0,Warsaw,Europe,31,16.86,636364.0
+20,Riot Games,USA,11.5,1.8,4500,2006.0,Los Angeles,North America,19,6.39,400000.0
+21,Epic Games,USA,11.0,6.0,4000,1991.0,Cary,North America,34,1.83,1500000.0
+22,NCSoft,South Korea,9.5,0.9,4700,1997.0,Seongnam,Asia,28,10.56,191489.0
+23,Netmarble,South Korea,8.9,2.4,6800,2000.0,Seoul,Asia,25,3.71,352941.0
+24,Embracer Group,Sweden,8.5,3.1,16000,2011.0,Karlstad,Europe,14,2.74,193750.0
+25,Sega Sammy,Japan,7.8,3.2,6000,1945.0,Tokyo,Asia,80,2.44,533333.0
+26,Zynga,USA,7.5,2.8,3700,2007.0,San Francisco,North America,18,2.68,756757.0
+27,GungHo Online,Japan,6.9,1.1,800,2002.0,Tokyo,Asia,23,6.27,1375000.0
+28,Mixi,Japan,5.8,1.0,1200,1999.0,Tokyo,Asia,26,5.8,833333.0
+29,DeNA,Japan,5.2,1.1,2100,1999.0,Tokyo,Asia,26,4.73,523810.0
+30,Gravity,South Korea,4.8,0.3,400,2000.0,Seoul,Asia,25,16.0,750000.0
+31,Stillfront Group,Sweden,4.5,0.6,1900,2010.0,Stockholm,Europe,15,7.5,315789.0
+32,Playtika,Israel,4.3,2.6,3900,2011.0,Herzliya,Middle East,14,1.65,666667.0
+33,Playway,Poland,4.1,0.18,100,2011.0,Kraków,Europe,14,22.78,1800000.0
+34,Paradox Interactive,Sweden,3.8,0.25,650,1999.0,Stockholm,Europe,26,15.2,384615.0
+35,Remedy Entertainment,Finland,3.5,0.21,600,1995.0,Espoo,Europe,30,16.67,350000.0
+36,505 Games,Italy,3.2,0.4,700,2006.0,Milan,Europe,19,8.0,571429.0
+37,Devolver Digital,USA,2.9,0.35,300,2009.0,Austin,North America,16,8.29,1166667.0
+38,Focus Entertainment,France,2.8,0.22,650,1996.0,Paris,Europe,29,12.73,338462.0
+39,Nacon,France,2.5,0.2,700,2019.0,Lesquin,Europe,6,12.5,285714.0
+40,THQ Nordic,Austria,2.3,0.3,1200,2011.0,Vienna,Europe,14,7.67,250000.0
+41,Team17,UK,2.1,0.14,450,1990.0,Wakefield,Europe,35,15.0,311111.0
+42,Frontier Developments,UK,1.9,0.13,950,1994.0,Cambridge,Europe,31,14.62,136842.0
+43,Warhorse Studios,Czech Republic,1.7,0.09,250,2011.0,Prague,Europe,14,18.89,360000.0
+44,TinyBuild,USA,1.5,0.09,280,2012.0,Bellevue,North America,13,16.67,321429.0
+45,Thunderful Group,Sweden,1.3,0.19,1000,2019.0,Gothenburg,Europe,6,6.84,190000.0
+46,GreenPark Sports,UK,1.2,0.05,120,2019.0,London,Europe,6,24.0,416667.0
+47,Starbreeze Studios,Sweden,1.1,0.06,300,1998.0,Stockholm,Europe,27,18.33,200000.0
+48,Versus Evil,USA,0.9,0.04,50,2012.0,Nashville,North America,13,22.5,800000.0
+49,Tripwire Interactive,USA,0.8,0.06,120,2005.0,Redmond,North America,20,13.33,500000.0
+50,Kalypso Media,Germany,0.7,0.08,250,2006.0,Worms,Europe,19,8.75,320000.0

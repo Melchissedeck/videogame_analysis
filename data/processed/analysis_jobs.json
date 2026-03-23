@@ -1,0 +1,1135 @@
+{
+  "overview": {
+    "total_jobs": 81,
+    "total_families": 13,
+    "salary_median_usd": 85000,
+    "salary_mean_usd": 88123,
+    "salary_min_usd": 45000,
+    "salary_max_usd": 175000,
+    "remote_friendly_pct": 85.2,
+    "senior_pct": 34.6,
+    "mid_pct": 64.2,
+    "junior_pct": 1.2
+  },
+  "by_family": [
+    {
+      "family": "Tech & Infrastructure",
+      "nb_metiers": 4,
+      "salaire_median_usd": 117500.0,
+      "salaire_moyen_usd": 118250.0,
+      "salaire_min_usd": 108000,
+      "salaire_max_usd": 130000,
+      "remote_pct": 100.0,
+      "rank": 1
+    },
+    {
+      "family": "Programming",
+      "nb_metiers": 10,
+      "salaire_median_usd": 113500.0,
+      "salaire_moyen_usd": 114000.0,
+      "salaire_min_usd": 95000,
+      "salaire_max_usd": 145000,
+      "remote_pct": 100.0,
+      "rank": 2
+    },
+    {
+      "family": "AI & Innovation",
+      "nb_metiers": 4,
+      "salaire_median_usd": 112500.0,
+      "salaire_moyen_usd": 110750.0,
+      "salaire_min_usd": 88000,
+      "salaire_max_usd": 130000,
+      "remote_pct": 100.0,
+      "rank": 3
+    },
+    {
+      "family": "Legal & Finance",
+      "nb_metiers": 4,
+      "salaire_median_usd": 105000.0,
+      "salaire_moyen_usd": 116250.0,
+      "salaire_min_usd": 80000,
+      "salaire_max_usd": 175000,
+      "remote_pct": 100.0,
+      "rank": 4
+    },
+    {
+      "family": "Production",
+      "nb_metiers": 7,
+      "salaire_median_usd": 100000.0,
+      "salaire_moyen_usd": 112143.0,
+      "salaire_min_usd": 88000,
+      "salaire_max_usd": 145000,
+      "remote_pct": 100.0,
+      "rank": 5
+    },
+    {
+      "family": "Business & Marketing",
+      "nb_metiers": 8,
+      "salaire_median_usd": 89000.0,
+      "salaire_moyen_usd": 89375.0,
+      "salaire_min_usd": 55000,
+      "salaire_max_usd": 130000,
+      "remote_pct": 100.0,
+      "rank": 6
+    },
+    {
+      "family": "Animation & VFX",
+      "nb_metiers": 6,
+      "salaire_median_usd": 82500.0,
+      "salaire_moyen_usd": 83333.0,
+      "salaire_min_usd": 72000,
+      "salaire_max_usd": 95000,
+      "remote_pct": 100.0,
+      "rank": 7
+    },
+    {
+      "family": "Audio",
+      "nb_metiers": 5,
+      "salaire_median_usd": 75000.0,
+      "salaire_moyen_usd": 80600.0,
+      "salaire_min_usd": 68000,
+      "salaire_max_usd": 105000,
+      "remote_pct": 100.0,
+      "rank": 8
+    },
+    {
+      "family": "Art & Design",
+      "nb_metiers": 11,
+      "salaire_median_usd": 72000.0,
+      "salaire_moyen_usd": 73727.0,
+      "salaire_min_usd": 62000,
+      "salaire_max_usd": 95000,
+      "remote_pct": 100.0,
+      "rank": 9
+    },
+    {
+      "family": "Communication & PR",
+      "nb_metiers": 4,
+      "salaire_median_usd": 64000.0,
+      "salaire_moyen_usd": 65250.0,
+      "salaire_min_usd": 55000,
+      "salaire_max_usd": 78000,
+      "remote_pct": 100.0,
+      "rank": 10
+    },
+    {
+      "family": "Writing & Narrative",
+      "nb_metiers": 6,
+      "salaire_median_usd": 63500.0,
+      "salaire_moyen_usd": 67500.0,
+      "salaire_min_usd": 55000,
+      "salaire_max_usd": 95000,
+      "remote_pct": 100.0,
+      "rank": 11
+    },
+    {
+      "family": "Esports & Content",
+      "nb_metiers": 7,
+      "salaire_median_usd": 60000.0,
+      "salaire_moyen_usd": 60714.0,
+      "salaire_min_usd": 50000,
+      "salaire_max_usd": 75000,
+      "remote_pct": 100.0,
+      "rank": 12
+    },
+    {
+      "family": "QA",
+      "nb_metiers": 5,
+      "salaire_median_usd": 55000.0,
+      "salaire_moyen_usd": 62400.0,
+      "salaire_min_usd": 45000,
+      "salaire_max_usd": 90000,
+      "remote_pct": 100.0,
+      "rank": 13
+    }
+  ],
+  "all_jobs": [
+    {
+      "family": "AI & Innovation",
+      "job_title": "Metaverse Developer",
+      "avg_salary_usd": 115000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "AI & Innovation",
+      "job_title": "UX Researcher",
+      "avg_salary_usd": 88000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "AI & Innovation",
+      "job_title": "ML Engineer (NPC AI)",
+      "avg_salary_usd": 130000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "AI & Innovation",
+      "job_title": "VR/AR Specialist",
+      "avg_salary_usd": 110000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Animation & VFX",
+      "job_title": "Facial Animator",
+      "avg_salary_usd": 80000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Animation & VFX",
+      "job_title": "VFX Artist",
+      "avg_salary_usd": 78000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Animation & VFX",
+      "job_title": "3D Animator",
+      "avg_salary_usd": 72000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Animation & VFX",
+      "job_title": "Cinematic Director",
+      "avg_salary_usd": 95000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Animation & VFX",
+      "job_title": "Motion Capture Supervisor",
+      "avg_salary_usd": 90000,
+      "seniority": "Senior",
+      "remote_friendly": false,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Animation & VFX",
+      "job_title": "Technical Animator",
+      "avg_salary_usd": 85000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "UI/UX Designer",
+      "avg_salary_usd": 80000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "Character Artist (3D)",
+      "avg_salary_usd": 74000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "Game Designer",
+      "avg_salary_usd": 72000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "Environment Artist (3D)",
+      "avg_salary_usd": 72000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "Narrative Designer",
+      "avg_salary_usd": 70000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "Level Designer",
+      "avg_salary_usd": 68000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "2D Animator",
+      "avg_salary_usd": 68000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "Concept Artist",
+      "avg_salary_usd": 65000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "Storyboard Artist",
+      "avg_salary_usd": 62000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "Art Director",
+      "avg_salary_usd": 95000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Art & Design",
+      "job_title": "Technical Artist",
+      "avg_salary_usd": 85000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Audio",
+      "job_title": "Composer",
+      "avg_salary_usd": 75000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Audio",
+      "job_title": "Sound Designer",
+      "avg_salary_usd": 70000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Audio",
+      "job_title": "Audio Engineer",
+      "avg_salary_usd": 68000,
+      "seniority": "Mid",
+      "remote_friendly": false,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Audio",
+      "job_title": "Audio Director",
+      "avg_salary_usd": 105000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Audio",
+      "job_title": "Dialogue Director",
+      "avg_salary_usd": 85000,
+      "seniority": "Senior",
+      "remote_friendly": false,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Business & Marketing",
+      "job_title": "Product Manager",
+      "avg_salary_usd": 95000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Business & Marketing",
+      "job_title": "User Acquisition Manager",
+      "avg_salary_usd": 92000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Business & Marketing",
+      "job_title": "Growth Hacker",
+      "avg_salary_usd": 90000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Business & Marketing",
+      "job_title": "Brand Manager",
+      "avg_salary_usd": 88000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Business & Marketing",
+      "job_title": "Data Analyst",
+      "avg_salary_usd": 85000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Business & Marketing",
+      "job_title": "ASO Specialist",
+      "avg_salary_usd": 80000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Business & Marketing",
+      "job_title": "Community Manager",
+      "avg_salary_usd": 55000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Business & Marketing",
+      "job_title": "Publisher",
+      "avg_salary_usd": 130000,
+      "seniority": "Senior",
+      "remote_friendly": false,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Communication & PR",
+      "job_title": "PR Manager",
+      "avg_salary_usd": 78000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Communication & PR",
+      "job_title": "Trailer Editor",
+      "avg_salary_usd": 70000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Communication & PR",
+      "job_title": "Social Media Manager",
+      "avg_salary_usd": 58000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Communication & PR",
+      "job_title": "Copywriter",
+      "avg_salary_usd": 55000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Esports & Content",
+      "job_title": "Esports Analyst",
+      "avg_salary_usd": 70000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Esports & Content",
+      "job_title": "Esports Coach",
+      "avg_salary_usd": 65000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Esports & Content",
+      "job_title": "Pro Player",
+      "avg_salary_usd": 60000,
+      "seniority": "Mid",
+      "remote_friendly": false,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Esports & Content",
+      "job_title": "Caster / Commentator",
+      "avg_salary_usd": 55000,
+      "seniority": "Mid",
+      "remote_friendly": false,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Esports & Content",
+      "job_title": "Streamer",
+      "avg_salary_usd": 50000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Esports & Content",
+      "job_title": "Games Journalist",
+      "avg_salary_usd": 50000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Esports & Content",
+      "job_title": "Tournament Organizer",
+      "avg_salary_usd": 75000,
+      "seniority": "Senior",
+      "remote_friendly": false,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Legal & Finance",
+      "job_title": "CFO",
+      "avg_salary_usd": 175000,
+      "seniority": "Senior",
+      "remote_friendly": false,
+      "salary_band": "$150K+",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Legal & Finance",
+      "job_title": "Games IP Lawyer",
+      "avg_salary_usd": 120000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Legal & Finance",
+      "job_title": "Compliance Officer",
+      "avg_salary_usd": 90000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Legal & Finance",
+      "job_title": "HR Manager",
+      "avg_salary_usd": 80000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Production",
+      "job_title": "Product Owner",
+      "avg_salary_usd": 92000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Production",
+      "job_title": "Scrum Master",
+      "avg_salary_usd": 90000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Production",
+      "job_title": "Project Manager",
+      "avg_salary_usd": 88000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Production",
+      "job_title": "Executive Producer",
+      "avg_salary_usd": 145000,
+      "seniority": "Senior",
+      "remote_friendly": false,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Production",
+      "job_title": "Game Director",
+      "avg_salary_usd": 140000,
+      "seniority": "Senior",
+      "remote_friendly": false,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Production",
+      "job_title": "Studio Manager",
+      "avg_salary_usd": 130000,
+      "seniority": "Senior",
+      "remote_friendly": false,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Production",
+      "job_title": "Producer",
+      "avg_salary_usd": 100000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Programming",
+      "job_title": "DevOps Engineer",
+      "avg_salary_usd": 112000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Programming",
+      "job_title": "Gameplay Programmer",
+      "avg_salary_usd": 105000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Programming",
+      "job_title": "Tools Developer",
+      "avg_salary_usd": 100000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Programming",
+      "job_title": "Mobile Developer",
+      "avg_salary_usd": 95000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Programming",
+      "job_title": "Lead Programmer",
+      "avg_salary_usd": 145000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Programming",
+      "job_title": "Graphics Programmer",
+      "avg_salary_usd": 120000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Programming",
+      "job_title": "Security Engineer",
+      "avg_salary_usd": 120000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Programming",
+      "job_title": "AI Programmer",
+      "avg_salary_usd": 118000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Programming",
+      "job_title": "Network Programmer",
+      "avg_salary_usd": 115000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Programming",
+      "job_title": "Shader Developer",
+      "avg_salary_usd": 110000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "QA",
+      "job_title": "QA Tester",
+      "avg_salary_usd": 45000,
+      "seniority": "Junior",
+      "remote_friendly": false,
+      "salary_band": "< $50K",
+      "seniority_rank": 1
+    },
+    {
+      "family": "QA",
+      "job_title": "QA Lead",
+      "avg_salary_usd": 70000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "QA",
+      "job_title": "Accessibility Tester",
+      "avg_salary_usd": 55000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "QA",
+      "job_title": "Localization Tester",
+      "avg_salary_usd": 52000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "QA",
+      "job_title": "QA Manager",
+      "avg_salary_usd": 90000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Tech & Infrastructure",
+      "job_title": "Cloud Engineer",
+      "avg_salary_usd": 120000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Tech & Infrastructure",
+      "job_title": "Backend Engineer",
+      "avg_salary_usd": 115000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Tech & Infrastructure",
+      "job_title": "Database Engineer",
+      "avg_salary_usd": 108000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Tech & Infrastructure",
+      "job_title": "SRE",
+      "avg_salary_usd": 130000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$110K–$150K",
+      "seniority_rank": 3
+    },
+    {
+      "family": "Writing & Narrative",
+      "job_title": "Quest Designer",
+      "avg_salary_usd": 68000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Writing & Narrative",
+      "job_title": "Game Writer",
+      "avg_salary_usd": 65000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Writing & Narrative",
+      "job_title": "Dialogue Writer",
+      "avg_salary_usd": 62000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Writing & Narrative",
+      "job_title": "Lore Writer",
+      "avg_salary_usd": 60000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Writing & Narrative",
+      "job_title": "Localizer / Translator",
+      "avg_salary_usd": 55000,
+      "seniority": "Mid",
+      "remote_friendly": true,
+      "salary_band": "$50K–$80K",
+      "seniority_rank": 2
+    },
+    {
+      "family": "Writing & Narrative",
+      "job_title": "Narrative Director",
+      "avg_salary_usd": 95000,
+      "seniority": "Senior",
+      "remote_friendly": true,
+      "salary_band": "$80K–$110K",
+      "seniority_rank": 3
+    }
+  ],
+  "top10_highest_paid": [
+    {
+      "rank": 1,
+      "job_title": "CFO",
+      "family": "Legal & Finance",
+      "avg_salary_usd": 175000,
+      "seniority": "Senior",
+      "remote_friendly": false
+    },
+    {
+      "rank": 2,
+      "job_title": "Executive Producer",
+      "family": "Production",
+      "avg_salary_usd": 145000,
+      "seniority": "Senior",
+      "remote_friendly": false
+    },
+    {
+      "rank": 3,
+      "job_title": "Lead Programmer",
+      "family": "Programming",
+      "avg_salary_usd": 145000,
+      "seniority": "Senior",
+      "remote_friendly": true
+    },
+    {
+      "rank": 4,
+      "job_title": "Game Director",
+      "family": "Production",
+      "avg_salary_usd": 140000,
+      "seniority": "Senior",
+      "remote_friendly": false
+    },
+    {
+      "rank": 5,
+      "job_title": "ML Engineer (NPC AI)",
+      "family": "AI & Innovation",
+      "avg_salary_usd": 130000,
+      "seniority": "Senior",
+      "remote_friendly": true
+    },
+    {
+      "rank": 6,
+      "job_title": "Publisher",
+      "family": "Business & Marketing",
+      "avg_salary_usd": 130000,
+      "seniority": "Senior",
+      "remote_friendly": false
+    },
+    {
+      "rank": 7,
+      "job_title": "Studio Manager",
+      "family": "Production",
+      "avg_salary_usd": 130000,
+      "seniority": "Senior",
+      "remote_friendly": false
+    },
+    {
+      "rank": 8,
+      "job_title": "SRE",
+      "family": "Tech & Infrastructure",
+      "avg_salary_usd": 130000,
+      "seniority": "Senior",
+      "remote_friendly": true
+    },
+    {
+      "rank": 9,
+      "job_title": "Games IP Lawyer",
+      "family": "Legal & Finance",
+      "avg_salary_usd": 120000,
+      "seniority": "Senior",
+      "remote_friendly": true
+    },
+    {
+      "rank": 10,
+      "job_title": "Graphics Programmer",
+      "family": "Programming",
+      "avg_salary_usd": 120000,
+      "seniority": "Senior",
+      "remote_friendly": true
+    }
+  ],
+  "entry_level_jobs": [
+    {
+      "job_title": "QA Tester",
+      "family": "QA",
+      "avg_salary_usd": 45000,
+      "seniority": "Junior",
+      "remote_friendly": false
+    },
+    {
+      "job_title": "Streamer",
+      "family": "Esports & Content",
+      "avg_salary_usd": 50000,
+      "seniority": "Mid",
+      "remote_friendly": true
+    },
+    {
+      "job_title": "Games Journalist",
+      "family": "Esports & Content",
+      "avg_salary_usd": 50000,
+      "seniority": "Mid",
+      "remote_friendly": true
+    },
+    {
+      "job_title": "Localization Tester",
+      "family": "QA",
+      "avg_salary_usd": 52000,
+      "seniority": "Mid",
+      "remote_friendly": true
+    },
+    {
+      "job_title": "Community Manager",
+      "family": "Business & Marketing",
+      "avg_salary_usd": 55000,
+      "seniority": "Mid",
+      "remote_friendly": true
+    },
+    {
+      "job_title": "Copywriter",
+      "family": "Communication & PR",
+      "avg_salary_usd": 55000,
+      "seniority": "Mid",
+      "remote_friendly": true
+    },
+    {
+      "job_title": "Caster / Commentator",
+      "family": "Esports & Content",
+      "avg_salary_usd": 55000,
+      "seniority": "Mid",
+      "remote_friendly": false
+    },
+    {
+      "job_title": "Accessibility Tester",
+      "family": "QA",
+      "avg_salary_usd": 55000,
+      "seniority": "Mid",
+      "remote_friendly": true
+    },
+    {
+      "job_title": "Localizer / Translator",
+      "family": "Writing & Narrative",
+      "avg_salary_usd": 55000,
+      "seniority": "Mid",
+      "remote_friendly": true
+    },
+    {
+      "job_title": "Social Media Manager",
+      "family": "Communication & PR",
+      "avg_salary_usd": 58000,
+      "seniority": "Mid",
+      "remote_friendly": true
+    }
+  ],
+  "by_seniority": [
+    {
+      "seniority": "Junior",
+      "nb_metiers": 1,
+      "salaire_median_usd": 45000.0,
+      "salaire_moyen_usd": 45000.0,
+      "remote_pct": 0.0
+    },
+    {
+      "seniority": "Mid",
+      "nb_metiers": 52,
+      "salaire_median_usd": 72000.0,
+      "salaire_moyen_usd": 76635.0,
+      "remote_pct": 100.0
+    },
+    {
+      "seniority": "Senior",
+      "nb_metiers": 28,
+      "salaire_median_usd": 110000.0,
+      "salaire_moyen_usd": 111000.0,
+      "remote_pct": 100.0
+    }
+  ],
+  "salary_distribution": [
+    {
+      "band": "$50K–$80K",
+      "count": 33,
+      "pct": 40.7
+    },
+    {
+      "band": "$80K–$110K",
+      "count": 28,
+      "pct": 34.6
+    },
+    {
+      "band": "$110K–$150K",
+      "count": 18,
+      "pct": 22.2
+    },
+    {
+      "band": "$150K+",
+      "count": 1,
+      "pct": 1.2
+    },
+    {
+      "band": "< $50K",
+      "count": 1,
+      "pct": 1.2
+    }
+  ],
+  "remote_by_family": [
+    {
+      "family": "AI & Innovation",
+      "remote_pct": 100.0
+    },
+    {
+      "family": "Art & Design",
+      "remote_pct": 100.0
+    },
+    {
+      "family": "Tech & Infrastructure",
+      "remote_pct": 100.0
+    },
+    {
+      "family": "Writing & Narrative",
+      "remote_pct": 100.0
+    },
+    {
+      "family": "Communication & PR",
+      "remote_pct": 100.0
+    },
+    {
+      "family": "Programming",
+      "remote_pct": 100.0
+    },
+    {
+      "family": "Business & Marketing",
+      "remote_pct": 87.5
+    },
+    {
+      "family": "Animation & VFX",
+      "remote_pct": 83.3
+    },
+    {
+      "family": "QA",
+      "remote_pct": 80.0
+    },
+    {
+      "family": "Legal & Finance",
+      "remote_pct": 75.0
+    },
+    {
+      "family": "Audio",
+      "remote_pct": 60.0
+    },
+    {
+      "family": "Production",
+      "remote_pct": 57.1
+    },
+    {
+      "family": "Esports & Content",
+      "remote_pct": 57.1
+    }
+  ]
+}

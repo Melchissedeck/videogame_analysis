@@ -12,10 +12,7 @@ __pycache__/
 *.pyd
 .Python
 
-# Données brutes (souvent volumineuses)
-data/raw/*.csv
-data/clean/*.csv
-data/processed/*.json
+
 
 # VSCode
 .vscode/settings.json
