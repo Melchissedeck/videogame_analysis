@@ -16,8 +16,8 @@ import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
 
-# ── Chemins ───────────────────────────────────────────────────────────────────
-_ROOT      = Path(__file__).parent.parent.parent
+# ── Chemins (Sécurisés avec .resolve()) ───────────────────────────────────────
+_ROOT      = Path(__file__).resolve().parent.parent.parent
 _PROCESSED = _ROOT / "data" / "processed"
 _CLEAN     = _ROOT / "data" / "clean"
 
@@ -35,34 +35,30 @@ SEQ_SLATE   = ["#f1f5f9", "#cbd5e1", "#94a3b8", "#64748b", "#475569", "#334155",
 QUAL_COLORS = ["#4f46e5","#06b6d4","#10b981","#f59e0b","#ef4444","#8b5cf6","#ec4899","#14b8a6","#f97316","#6366f1"]
 
 
-# ── Chargement données ────────────────────────────────────────────────────────
-
-@st.cache_data
+# ── Chargement données (Mode Debug) ───────────────────────────────────────────
 def load_json(name: str) -> dict:
-    """Charge un JSON depuis data/processed/. Retourne {} si absent."""
+    """Charge un JSON depuis data/processed/. Affiche une erreur si absent."""
     path = _PROCESSED / f"{name}.json"
     if not path.exists():
+        st.error(f"⚠️ Erreur de chemin : Le fichier JSON est introuvable à cet endroit :\n{path}")
         return {}
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
-@st.cache_data
 def load_csv(name: str) -> pd.DataFrame:
-    """Charge un CSV depuis data/clean/. Retourne DataFrame vide si absent."""
+    """Charge un CSV depuis data/clean/. Affiche une erreur si absent."""
     path = _CLEAN / f"{name}.csv"
     if not path.exists():
+        st.error(f"⚠️ Erreur de chemin : Le fichier CSV est introuvable à cet endroit :\n{path}")
         return pd.DataFrame()
     return pd.read_csv(path)
 
 def has_data(name: str) -> bool:
-    """Vérifie si un fichier processed existe et n'est pas vide."""
-    d = load_json(name)
-    return bool(d)
+    path = _PROCESSED / f"{name}.json"
+    return path.exists() # Vérification stricte de l'existence du fichier
 
 def invalidate_cache():
-    """Vide le cache (utile après re-run pipeline)."""
-    load_json.clear()
-    load_csv.clear()
+    pass # Temporairement désactivé pour le debug
 
 
 # ── Thème Plotly ─────────────────────────────────────────────────────────────
