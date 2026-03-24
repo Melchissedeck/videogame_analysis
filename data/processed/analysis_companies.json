@@ -518,5 +518,87 @@
     "20–30 ans": 15,
     "30–50 ans": 12,
     "50+ ans": 2
-  }
+  },
+  "value_creators": [
+    {
+      "name": "Apple (Gaming)",
+      "roic_pct": 233.8,
+      "invested_capital_usd_bn": 6.5,
+      "operating_income_usd_bn": 15.2
+    },
+    {
+      "name": "Playway",
+      "roic_pct": 80.0,
+      "invested_capital_usd_bn": 0.1,
+      "operating_income_usd_bn": 0.08
+    },
+    {
+      "name": "Paradox Interactive",
+      "roic_pct": 60.0,
+      "invested_capital_usd_bn": 0.15,
+      "operating_income_usd_bn": 0.09
+    },
+    {
+      "name": "Warhorse Studios",
+      "roic_pct": 60.0,
+      "invested_capital_usd_bn": 0.05,
+      "operating_income_usd_bn": 0.03
+    },
+    {
+      "name": "Gravity",
+      "roic_pct": 50.0,
+      "invested_capital_usd_bn": 0.2,
+      "operating_income_usd_bn": 0.1
+    },
+    {
+      "name": "Versus Evil",
+      "roic_pct": 50.0,
+      "invested_capital_usd_bn": 0.02,
+      "operating_income_usd_bn": 0.01
+    },
+    {
+      "name": "Tripwire Interactive",
+      "roic_pct": 50.0,
+      "invested_capital_usd_bn": 0.04,
+      "operating_income_usd_bn": 0.02
+    },
+    {
+      "name": "Remedy Entertainment",
+      "roic_pct": 40.0,
+      "invested_capital_usd_bn": 0.1,
+      "operating_income_usd_bn": 0.04
+    },
+    {
+      "name": "Team17",
+      "roic_pct": 37.5,
+      "invested_capital_usd_bn": 0.08,
+      "operating_income_usd_bn": 0.03
+    },
+    {
+      "name": "Capcom",
+      "roic_pct": 36.4,
+      "invested_capital_usd_bn": 1.1,
+      "operating_income_usd_bn": 0.4
+    }
+  ],
+  "value_destroyers": [
+    {
+      "name": "Ubisoft",
+      "roic_pct": 2.9,
+      "invested_capital_usd_bn": 3.5,
+      "operating_income_usd_bn": 0.1
+    },
+    {
+      "name": "Embracer Group",
+      "roic_pct": 4.2,
+      "invested_capital_usd_bn": 4.8,
+      "operating_income_usd_bn": 0.2
+    },
+    {
+      "name": "Netmarble",
+      "roic_pct": 5.0,
+      "invested_capital_usd_bn": 2.0,
+      "operating_income_usd_bn": 0.1
+    }
+  ]
 }

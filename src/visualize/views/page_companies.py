@@ -220,7 +220,7 @@ def render_capital():
     divider()
     # ── Analyse du Capital Investi (ROIC) ───────────
     if "value_creators" in co:
-        divider()
+
         section("EFFICACITÉ DU CAPITAL (ROIC) vs COÛT DU CAPITAL (8%)")
         
         st.markdown(f"<p style='color:{MUTED}; font-size:0.85rem; margin-top:-0.5rem;'>"
@@ -258,8 +258,9 @@ def render_capital():
 
             # Insight métier
             avg_roic = creators['roic_pct'].mean()
-            insight_card(f"Les meilleures entreprises du secteur affichent un ROIC impressionnant (moyenne du top 10 : <strong>{avg_roic:.1f}%</strong>), prouvant que le jeu vidéo nécessite peu de capitaux physiques pour générer d'énormes marges.", "💰")
+
     section("INSIGHTS")
+    insight_card(f"Les meilleures entreprises du secteur affichent un ROIC impressionnant (moyenne du top 10 : <strong>{avg_roic:.1f}%</strong>), prouvant que le jeu vidéo nécessite peu de capitaux physiques pour générer d'énormes marges.", "💰")
     insight_card(f"Un HHI de <strong>{mc.get('herfindahl_index')}</strong> confirme un marché <strong>très concentré</strong>. Seuil de concentration : 2 500.", "📊")
     top5 = mc.get("top5_companies", [])
     if top5:
