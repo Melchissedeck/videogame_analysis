@@ -26,7 +26,7 @@ st.set_page_config(
 )
 
 # ── Import des utilitaires ────────────────────────────────────────────────────
-from src.visualize.utils import inject_css, has_data, load_json, INDIGO, SLATE, MUTED, WHITE, BORDER
+from src.visualize.utils import inject_css, has_data, load_json, invalidate_cache, INDIGO, SLATE, MUTED, WHITE, BORDER
 
 # ── Import des pages ──────────────────────────────────────────────────────────
 from src.visualize.views import page_overview
@@ -77,7 +77,7 @@ with st.sidebar:
     st.markdown(f'<p style="font-size:0.68rem; color:{MUTED}; text-transform:uppercase; letter-spacing:0.08em; margin-bottom:0.6rem;">PIPELINE</p>', unsafe_allow_html=True)
 
     pipeline = [
-        ("Collecte",  any([(ROOT/"data"/"raw"/f).exists() for f in ["companies.csv","rawg_games.csv"]])),
+        ("Collecte",  any([(ROOT/"data"/"raw"/f).exists() for f in ["companies.csv","rawg_games.csv","live_service_titans.csv"]])),
         ("Nettoyage", any([(ROOT/"data"/"clean"/f).exists() for f in ["companies_clean.csv","rawg_games_clean.csv"]])),
         ("Analyse",   any([(ROOT/"data"/"processed"/f).exists() for f in ["analysis_companies.json","analysis_games.json"]])),
     ]
@@ -97,8 +97,14 @@ with st.sidebar:
         </div>
         """, unsafe_allow_html=True)
 
+    # ── Bouton Rafraîchir ─────────────────────────────────────
+    st.markdown(f'<hr style="border:none; border-top:1px solid {BORDER}; margin:1.2rem 0 1rem 0;">', unsafe_allow_html=True)
+    if st.button("🔄 Rafraîchir les données", use_container_width=True):
+        invalidate_cache()
+        st.rerun()
+
     # ── Sources ───────────────────────────────────────────────
-    st.markdown(f'<hr style="border:none; border-top:1px solid {BORDER}; margin:1.2rem 0 0.8rem 0;">', unsafe_allow_html=True)
+    st.markdown(f'<hr style="border:none; border-top:1px solid {BORDER}; margin:1rem 0 0.8rem 0;">', unsafe_allow_html=True)
     st.markdown(f"""
     <div style="font-size:0.68rem; color:{MUTED}; line-height:1.8;">
         <strong style="color:{SLATE};">Sources</strong><br>
