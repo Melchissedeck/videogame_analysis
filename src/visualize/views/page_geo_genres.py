@@ -247,8 +247,9 @@ def render_adventure():
             rang = int(row["rank"])
             score = row["score_composite"]
             nb = int(row["nb_jeux"])
+            # Correction ici : background:var(--secondary-background-color) au lieu de background:{WHITE}
             col.markdown(f"""
-            <div style="background:{WHITE}; border:1px solid {BORDER}; border-radius:10px;
+            <div style="background:var(--secondary-background-color); border:1px solid {BORDER}; border-radius:10px;
                         padding:1.2rem; text-align:center;">
                 <div style="font-size:0.72rem; color:{MUTED}; text-transform:uppercase; letter-spacing:0.07em; margin-bottom:0.4rem;">{label}</div>
                 <div style="font-family:'DM Mono',monospace; font-size:2.4rem; font-weight:500; color:{INDIGO};">#{rang}</div>
