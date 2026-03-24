@@ -123,7 +123,7 @@ def render_companies():
                  "market_cap_usd_bn","revenue_usd_bn",
                  "employees","founded","company_age",
                  "ratio_cap_revenue"]].copy()
-    disp.columns = ["#","Entreprise","Pays","Continent",
+    disp.columns = ["Classement","Entreprise","Pays","Continent",
                     "Cap. (Mds $)","CA (Mds $)",
                     "Employés","Fondée","Âge","P/S ratio"]
     st.dataframe(disp, use_container_width=True, height=420, hide_index=True)
@@ -218,6 +218,47 @@ def render_capital():
             st.plotly_chart(fig3, use_container_width=True)
 
     divider()
+    # ── Analyse du Capital Investi (ROIC) ───────────
+    if "value_creators" in co:
+        divider()
+        section("EFFICACITÉ DU CAPITAL (ROIC) vs COÛT DU CAPITAL (8%)")
+        
+        st.markdown(f"<p style='color:{MUTED}; font-size:0.85rem; margin-top:-0.5rem;'>"
+                    "Le ROIC mesure combien de bénéfice l'entreprise génère pour chaque dollar investi dans son bilan. "
+                    "Un ROIC supérieur à 8% (ligne rouge) signifie que l'entreprise crée de la vraie valeur.</p>", 
+                    unsafe_allow_html=True)
+
+        creators = pd.DataFrame(co.get("value_creators", []))
+        
+        if not creators.empty:
+            fig_roic = go.Figure()
+            
+            # Barres pour le ROIC
+            fig_roic.add_trace(go.Bar(
+                x=creators["name"],
+                y=creators["roic_pct"],
+                marker_color=INDIGO,
+                text=creators["roic_pct"].apply(lambda v: f"{v:.1f}%"),
+                textposition="outside",
+                hovertemplate="<b>%{x}</b><br>ROIC : %{y}%<extra></extra>"
+            ))
+            
+            # Ligne de référence du WACC (8%)
+            fig_roic.add_hline(
+                y=8.0, 
+                line_dash="dot", 
+                line_color="#ef4444", 
+                annotation_text="Coût du Capital (8%)", 
+                annotation_position="top right"
+            )
+
+            fig_roic.update_yaxes(title="Retour sur Capital Investi (%)")
+            theme(fig_roic, height=380)
+            st.plotly_chart(fig_roic, use_container_width=True)
+
+            # Insight métier
+            avg_roic = creators['roic_pct'].mean()
+            insight_card(f"Les meilleures entreprises du secteur affichent un ROIC impressionnant (moyenne du top 10 : <strong>{avg_roic:.1f}%</strong>), prouvant que le jeu vidéo nécessite peu de capitaux physiques pour générer d'énormes marges.", "💰")
     section("INSIGHTS")
     insight_card(f"Un HHI de <strong>{mc.get('herfindahl_index')}</strong> confirme un marché <strong>très concentré</strong>. Seuil de concentration : 2 500.", "📊")
     top5 = mc.get("top5_companies", [])

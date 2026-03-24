@@ -178,6 +178,22 @@ def run() -> bool:
                       labels=["0–10 ans", "10–20 ans", "20–30 ans", "30–50 ans", "50+ ans"])
     results["age_distribution"] = age_bins.value_counts().sort_index().to_dict()
 
+# Analyse de la création de valeur (ROIC vs Coût du capital estimé à 8%)
+    if "roic_pct" in df.columns and not df["roic_pct"].isnull().all():
+        WACC = 8.0 # Coût du capital moyen estimé à 8%
+        
+        # Les meilleures machines à cash
+        value_creators = df[df["roic_pct"] > WACC].nlargest(10, "roic_pct")[
+            ["name", "roic_pct", "invested_capital_usd_bn", "operating_income_usd_bn"]
+        ]
+        results["value_creators"] = value_creators.to_dict(orient="records")
+        
+        # Les destructeurs de valeur (ROIC < WACC mais toujours positifs)
+        value_destroyers = df[(df["roic_pct"] < WACC) & (df["roic_pct"] > 0)].nsmallest(10, "roic_pct")[
+            ["name", "roic_pct", "invested_capital_usd_bn", "operating_income_usd_bn"]
+        ]
+        results["value_destroyers"] = value_destroyers.to_dict(orient="records")
+
     # ── Sauvegarde ────────────────────────────────────────────
     output = _to_serializable(results)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:

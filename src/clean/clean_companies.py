@@ -34,14 +34,16 @@ OUTPUT_FILE = DATA_CLEAN / "companies_clean.csv"
 
 # ── Schéma attendu ────────────────────────────────────────────────────────────
 EXPECTED_COLS = {
-    "rank":              "int64",
-    "name":              "object",
-    "country":           "object",
-    "market_cap_usd_bn": "float64",
-    "revenue_usd_bn":    "float64",
-    "employees":         "int64",
-    "founded":           "int64",
-    "hq_city":           "object",
+    "rank":                    "int64",
+    "name":                    "object",
+    "country":                 "object",
+    "market_cap_usd_bn":       "float64",
+    "revenue_usd_bn":          "float64",
+    "operating_income_usd_bn": "float64",
+    "invested_capital_usd_bn": "float64",
+    "employees":               "int64",
+    "founded":                 "int64",
+    "hq_city":                 "object",
 }
 
 COUNTRY_TO_CONTINENT = {
@@ -159,6 +161,13 @@ def run() -> bool:
     df = df.sort_values("market_cap_usd_bn", ascending=False).reset_index(drop=True)
     df["rank"] = df.index + 1
     log.info("[ENRICH] ✓ Colonnes enrichies : continent, company_age, ratio_cap_revenue, revenue_per_employee")
+
+    # ROIC = (Operating Income / Invested Capital) * 100
+    # On évite la division par zéro avec replace(0, np.nan)
+    if "invested_capital_usd_bn" in df.columns and "operating_income_usd_bn" in df.columns:
+        df["roic_pct"] = ((df["operating_income_usd_bn"] / df["invested_capital_usd_bn"].replace(0, np.nan)) * 100).round(1)
+    else:
+        df["roic_pct"] = np.nan
 
     # ── 8. Types finaux ───────────────────────────────────────
     df["rank"]      = df["rank"].astype(int)
