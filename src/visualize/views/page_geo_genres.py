@@ -15,7 +15,7 @@ from src.visualize.utils import (
     INDIGO, INDIGO_L, SLATE, MUTED, WHITE, BORDER, QUAL_COLORS
 )
 
-# Correspondance région → code ISO3 pour la carte
+# Correspondance région → code ISO3 pour la carte (conservé au cas où pour de futures analyses)
 REGION_ISO = {
     "North America":       ["USA", "CAN", "MEX"],
     "Europe":              ["GBR","FRA","DEU","ITA","ESP","NLD","SWE","NOR","POL","RUS"],
@@ -45,46 +45,6 @@ def render_geography():
     k2.metric("Revenue mondial",         f"${ov.get('total_revenue_usd_bn','—')} Mds")
     k3.metric("Top région (joueurs)",    ov.get("top_region_players", "—"))
     k4.metric("Croissance la + rapide",  f"{ov.get('fastest_growing','—')} +{ov.get('fastest_growth_pct','—')}%")
-
-    divider()
-
-    # ── Carte choroplèthe ─────────────────────────────────────
-    section("CARTE — REVENUE GAMING PAR PAYS (ESTIMATION)")
-    # Construire df pays
-    rows = []
-    for _, row in regions.iterrows():
-        iso_list = REGION_ISO.get(row["region"], [])
-        if iso_list:
-            rev_per = row["revenue_usd_bn"] / len(iso_list)
-            for iso in iso_list:
-                rows.append({"country_iso": iso, "region": row["region"],
-                             "revenue_est": rev_per})
-    df_map = pd.DataFrame(rows) if rows else pd.DataFrame()
-
-    if not df_map.empty:
-        fig_map = px.choropleth(
-            df_map,
-            locations="country_iso",
-            color="revenue_est",
-            hover_name="region",
-            color_continuous_scale=[[0,"#e0e7ff"],[0.5,INDIGO_L],[1,INDIGO]],
-            labels={"revenue_est": "Revenue estimé (Mds $)"},
-        )
-        fig_map.update_geos(
-            showframe=False, showcoastlines=True,
-            coastlinecolor=BORDER,
-            landcolor="#f8f9fb", oceancolor="#f1f5f9",
-            lakecolor="#f1f5f9",
-        )
-        fig_map.update_coloraxes(
-            colorbar=dict(title="Mds $", thickness=12, len=0.6)
-        )
-        fig_map.update_layout(
-            paper_bgcolor=WHITE, plot_bgcolor=WHITE,
-            margin=dict(l=0,r=0,t=0,b=0), height=380,
-            font=dict(family="DM Sans"),
-        )
-        st.plotly_chart(fig_map, use_container_width=True)
 
     divider()
 
