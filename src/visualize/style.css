@@ -50,8 +50,8 @@ h1, h2, h3, h4, h5, h6 {
     border-right: 1px solid #e8eaed !important;
 }
 
-[data-testid="stSidebar"] * {
-    color: #0f172a !important;
+[data-testid="stSidebar"] {
+    color: #0f172a;
 }
 
 [data-testid="stSidebar"] .stRadio label,

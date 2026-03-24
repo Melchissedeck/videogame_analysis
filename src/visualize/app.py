@@ -29,11 +29,11 @@ st.set_page_config(
 from src.visualize.utils import inject_css, has_data, load_json, INDIGO, SLATE, MUTED, WHITE, BORDER
 
 # ── Import des pages ──────────────────────────────────────────────────────────
-from src.visualize.pages import page_overview
-from src.visualize.pages import page_companies
-from src.visualize.pages import page_games
-from src.visualize.pages import page_geo_genres
-from src.visualize.pages import page_jobs
+from src.visualize.views import page_overview
+from src.visualize.views import page_companies
+from src.visualize.views import page_games
+from src.visualize.views import page_geo_genres
+from src.visualize.views import page_jobs
 
 # ── CSS global ────────────────────────────────────────────────────────────────
 inject_css()
