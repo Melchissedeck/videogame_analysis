@@ -2,8 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
 
-/* ── Base globale (Polices uniquement) ──────────────────────── */
-html, body, [class*="css"], .stApp, .main, .block-container, p, span, div, li, td, th, label, caption {
+/* ── Base globale (Limité au dashboard pour ne pas casser le menu Settings) ── */
+.stApp, .main, .block-container {
     font-family: 'DM Sans', sans-serif !important;
 }
 
@@ -13,20 +13,39 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.02em !important;
 }
 
-/* ── Sidebar ────────────────────────────────────────────────── */
+/* ── Sidebar & Menu de navigation ───────────────────────────── */
 [data-testid="stSidebar"] {
     border-right: 1px solid var(--secondary-background-color) !important;
 }
 
-[data-testid="stSidebar"] .stRadio label,
 [data-testid="stSidebar"] .stRadio p {
     font-family: 'DM Sans', sans-serif !important;
+    font-size: 0.95rem !important;
+    padding: 0.1rem 0 !important;
 }
 
-/* Radio sélectionné */
+/* Cacher les ronds des boutons radio de la navigation */
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"] > label > div:first-child {
+    display: none !important;
+}
+
+[data-testid="stSidebar"] .stRadio div[role="radiogroup"] > label > div:nth-child(2) {
+    margin-left: 0 !important;
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    opacity: 0.75;
+    transition: opacity 0.2s;
+}
+
+[data-testid="stSidebar"] .stRadio label:hover {
+    opacity: 1;
+}
+
 [data-testid="stSidebar"] .stRadio [aria-checked="true"] p {
     color: var(--primary-color) !important;
     font-weight: 600 !important;
+    opacity: 1;
 }
 
 /* ── Metric cards ───────────────────────────────────────────── */
