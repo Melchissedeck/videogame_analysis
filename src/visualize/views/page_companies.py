@@ -129,7 +129,7 @@ def render_companies():
     # On ajoute "Cap. Investi (Mds $)" dans les noms d'affichage
     disp.columns = ["Classement", "Entreprise", "Pays", "Continent",
                     "Cap. (Mds $)", "CA (Mds $)", "Cap. Investi (Mds $)",
-                    "Employés", "Fondée", "Âge", "P/S ratio"]
+                    "Employés", "Fondée", "Âge", "Capitalisation/CA(P/S) ratio"]
                     
     st.dataframe(disp, use_container_width=True, height=420, hide_index=True)
 
