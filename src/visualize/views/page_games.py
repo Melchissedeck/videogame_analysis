@@ -128,7 +128,7 @@ def render_most_played():
     disp = df_f[["rank","name","genre_primary","platform_primary",
                  "ratings_count","composite_score","metacritic",
                  "rating_10","playtime_hours"]].copy()
-    disp.columns = ["#","Jeu","Genre","Plateforme",
+    disp.columns = ["Classement","Jeu","Genre","Plateforme",
                     "Ratings","Score /100","Metacritic","Note joueurs /10","Playtime (h)"]
     st.dataframe(disp, use_container_width=True, height=440, hide_index=True)
 

@@ -117,17 +117,21 @@ def render_companies():
 
     divider()
 
-    # ── Tableau ───────────────────────────────────────────────
+# ── Tableau ───────────────────────────────────────────────
     section("TABLEAU DÉTAILLÉ")
-    disp = df_f[["rank","name","country","continent",
-                 "market_cap_usd_bn","revenue_usd_bn",
-                 "employees","founded","company_age",
+    
+    # On ajoute "invested_capital_usd_bn" dans la liste des colonnes à récupérer
+    disp = df_f[["rank", "name", "country", "continent",
+                 "market_cap_usd_bn", "revenue_usd_bn", "invested_capital_usd_bn",
+                 "employees", "founded", "company_age",
                  "ratio_cap_revenue"]].copy()
-    disp.columns = ["Classement","Entreprise","Pays","Continent",
-                    "Cap. (Mds $)","CA (Mds $)",
-                    "Employés","Fondée","Âge","P/S ratio"]
+                 
+    # On ajoute "Cap. Investi (Mds $)" dans les noms d'affichage
+    disp.columns = ["Classement", "Entreprise", "Pays", "Continent",
+                    "Cap. (Mds $)", "CA (Mds $)", "Cap. Investi (Mds $)",
+                    "Employés", "Fondée", "Âge", "P/S ratio"]
+                    
     st.dataframe(disp, use_container_width=True, height=420, hide_index=True)
-
 
 def render_capital():
     page_header("Capitalisation Boursière", "Analyse financière détaillée · Top 50 entreprises")
@@ -260,7 +264,7 @@ def render_capital():
             avg_roic = creators['roic_pct'].mean()
 
     section("INSIGHTS")
-    insight_card(f"Les meilleures entreprises du secteur affichent un ROIC impressionnant (moyenne du top 10 : <strong>{avg_roic:.1f}%</strong>), prouvant que le jeu vidéo nécessite peu de capitaux physiques pour générer d'énormes marges.", "💰")
+    insight_card(f"Les entreprises les plus rentables du secteur affichent un ROIC impressionnant (moyenne du top 10 : <strong>{avg_roic:.1f}%</strong>), prouvant que le jeu vidéo nécessite peu de capitaux physiques pour générer d'énormes marges.", "💰")
     insight_card(f"Un HHI de <strong>{mc.get('herfindahl_index')}</strong> confirme un marché <strong>très concentré</strong>. Seuil de concentration : 2 500.", "📊")
     top5 = mc.get("top5_companies", [])
     if top5:
