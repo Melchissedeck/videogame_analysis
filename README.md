@@ -209,4 +209,3 @@ streamlit run src/visualize/app.py
 - [x] **Phase 2** — Nettoyage & validation
 - [x] **Phase 3** — Analyse exploratoire
 - [x] **Phase 4** — Dashboard Streamlit
-```
