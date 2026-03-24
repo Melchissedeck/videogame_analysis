@@ -93,29 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #0f172a !important;
 }
 
-/* ── Dataframe ──────────────────────────────────────────────── */
-[data-testid="stDataFrame"] {
-    border: 1px solid #e8eaed !important;
-    border-radius: 8px !important;
-    overflow: hidden !important;
-}
 
-/* Cellules du tableau */
-[data-testid="stDataFrame"] td,
-[data-testid="stDataFrame"] th,
-[data-testid="stDataFrame"] span,
-[data-testid="stDataFrame"] div {
-    color: #0f172a !important;
-    background-color: #ffffff !important;
-}
-
-/* En-têtes dataframe */
-[data-testid="stDataFrame"] th {
-    background-color: #f8f9fb !important;
-    color: #64748b !important;
-    font-weight: 600 !important;
-    font-size: 0.8rem !important;
-}
 
 /* ── Selectbox ──────────────────────────────────────────────── */
 .stSelectbox > div > div,
