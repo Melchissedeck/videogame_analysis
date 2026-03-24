@@ -51,6 +51,56 @@
       "max": 7352.0
     }
   },
+  "live_titans": [
+    {
+      "name": "Minecraft",
+      "developer": "Mojang (Microsoft)",
+      "mau_millions": 166,
+      "total_players_millions": 300,
+      "business_model": "Premium",
+      "release_year": 2011
+    },
+    {
+      "name": "Roblox",
+      "developer": "Roblox Corp",
+      "mau_millions": 300,
+      "total_players_millions": 300,
+      "business_model": "Free-to-play",
+      "release_year": 2006
+    },
+    {
+      "name": "Fortnite",
+      "developer": "Epic Games",
+      "mau_millions": 230,
+      "total_players_millions": 500,
+      "business_model": "Free-to-play",
+      "release_year": 2017
+    },
+    {
+      "name": "League of Legends",
+      "developer": "Riot Games",
+      "mau_millions": 150,
+      "total_players_millions": 180,
+      "business_model": "Free-to-play",
+      "release_year": 2009
+    },
+    {
+      "name": "Genshin Impact",
+      "developer": "miHoYo",
+      "mau_millions": 60,
+      "total_players_millions": 100,
+      "business_model": "Free-to-play",
+      "release_year": 2020
+    },
+    {
+      "name": "Call of Duty: Warzone",
+      "developer": "Activision",
+      "mau_millions": 50,
+      "total_players_millions": 125,
+      "business_model": "Free-to-play",
+      "release_year": 2020
+    }
+  ],
   "top50_most_played": [
     {
       "rank": 1,

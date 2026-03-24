@@ -6,6 +6,7 @@ Pages "Jeux les plus joués" et "Jeux les plus appréciés".
 
 import pandas as pd
 import plotly.graph_objects as go
+import plotly.express as px
 import streamlit as st
 
 from src.visualize.utils import (
@@ -16,13 +17,44 @@ from src.visualize.utils import (
 
 
 def render_most_played():
-    page_header("Jeux les Plus Joués", "Top 50 par nombre de ratings (proxy popularité) · RAWG 2024")
+    page_header("Jeux les Plus Joués", "Analyse de la popularité et de l'engagement")
 
     ga = load_json("analysis_games")
     if not ga:
         empty_state("Données manquantes", "python src/analyze/run_analyze.py --only games")
         return
 
+    # ── 1. Les Titans du Live Service ─────────────────────────
+    titans = ga.get("live_titans", [])
+    if titans:
+        df_titans = pd.DataFrame(titans)
+        section("LES TITANS DU LIVE SERVICE (HORS PLATEFORMES TRADITIONNELLES)")
+        st.info("💡 **Note méthodologique :** Les jeux ci-dessous opèrent sur leurs propres écosystèmes clos. Leur popularité se mesure en Joueurs Actifs Mensuels (MAU) issus de rapports financiers, et non via les évaluations publiques de Steam ou RAWG.")
+
+        fig_titans = px.bar(
+            df_titans.sort_values("mau_millions", ascending=True),
+            x="mau_millions",
+            y="name",
+            orientation="h",
+            color="mau_millions",
+            color_continuous_scale=[[0, "#e0e7ff"], [1, INDIGO]],
+            text="mau_millions",
+            custom_data=["developer", "business_model", "release_year"]
+        )
+        fig_titans.update_traces(
+            texttemplate='%{text} M',
+            textposition='outside',
+            hovertemplate="<b>%{y}</b><br>MAU : %{x} Millions<br>Développeur : %{customdata[0]}<br>Modèle : %{customdata[1]}<br>Sortie : %{customdata[2]}<extra></extra>"
+        )
+        fig_titans.update_layout(coloraxis_showscale=False, xaxis_title="Joueurs Actifs Mensuels (Millions)", yaxis_title="")
+        theme(fig_titans, height=350)
+        st.plotly_chart(fig_titans, use_container_width=True)
+
+        divider()
+
+    # ── 2. Top RAWG ───────────────────────────────────────────
+    section("CLASSEMENT PAR ÉVALUATIONS (STEAM / RAWG)")
+    
     top = ga.get("top50_most_played", [])
     if not top:
         empty_state("Aucune donnée top_played")
@@ -30,7 +62,7 @@ def render_most_played():
 
     df = pd.DataFrame(top)
 
-    # ── Filtres ───────────────────────────────────────────────
+    # Filtres
     col_f1, col_f2 = st.columns(2)
     with col_f1:
         genres = ["Tous"] + sorted(df["genre_primary"].dropna().unique().tolist())
@@ -45,7 +77,7 @@ def render_most_played():
 
     divider()
 
-    # ── KPIs ──────────────────────────────────────────────────
+    # KPIs
     k1, k2, k3 = st.columns(3)
     k1.metric("Jeux affichés",          len(df_f))
     k2.metric("Ratings totaux",         f"{df_f['ratings_count'].sum():,.0f}")
@@ -53,8 +85,7 @@ def render_most_played():
 
     divider()
 
-    # ── Bar chart horizontal ───────────────────────────────────
-    section("TOP 20 — NOMBRE DE RATINGS")
+    # Bar chart horizontal
     df20 = df_f.head(20).sort_values("ratings_count")
     colors = [INDIGO if i == len(df20)-1 else INDIGO_L for i in range(len(df20))]
     fig = go.Figure(go.Bar(
@@ -123,7 +154,7 @@ def render_most_played():
 
     divider()
 
-    # ── Tableau complet ────────────────────────────────────────
+    # Tableau complet
     section("TABLEAU COMPLET — TOP 50")
     disp = df_f[["rank","name","genre_primary","platform_primary",
                  "ratings_count","composite_score","metacritic",
@@ -257,7 +288,7 @@ def render_most_appreciated():
                  "composite_score","metacritic","rating_10",
                  "ratings_count","playtime_hours"]].copy()
     disp["released"] = disp["released"].str[:4]
-    disp.columns = ["#","Jeu","Année","Genre",
+    disp.columns = ["Classement","Jeu","Année","Genre",
                     "Score /100","Metacritic","Note /10",
                     "Ratings","Playtime (h)"]
     st.dataframe(disp, use_container_width=True, height=440, hide_index=True)

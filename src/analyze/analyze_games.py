@@ -1,17 +1,18 @@
 """
 src/analyze/analyze_games.py
 ──────────────────────────────
-Analyse exploratoire de data/clean/rawg_games_clean.csv
+Analyse exploratoire de data/clean/rawg_games_clean.csv et des titans du marché.
 
 Questions auxquelles on répond :
   1. Stats descriptives (scores, playtime, popularité)
-  2. Top 50 jeux les plus joués (par ratings_count)
-  3. Top 50 jeux les plus appréciés (composite_score)
-  4. Distribution et ranking des genres
-  5. Évolution de la qualité dans le temps (par décennie/année)
-  6. Corrélation score_critique ↔ score_joueurs ↔ popularité
-  7. Analyse plateforme (quelle plateforme produit les meilleurs jeux ?)
-  8. Outliers (jeux très joués mais mal notés, et vice-versa)
+  2. Les Titans du Live Service (Minecraft, Roblox, etc.)
+  3. Top 50 jeux les plus joués (par ratings_count)
+  4. Top 50 jeux les plus appréciés (composite_score)
+  5. Distribution et ranking des genres
+  6. Évolution de la qualité dans le temps (par décennie/année)
+  7. Corrélation score_critique ↔ score_joueurs ↔ popularité
+  8. Analyse plateforme (quelle plateforme produit les meilleurs jeux ?)
+  9. Outliers (jeux très joués mais mal notés, et vice-versa)
 
 Sortie → data/processed/analysis_games.json
 """
@@ -35,6 +36,7 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 INPUT_FILE  = DATA_CLEAN / "rawg_games_clean.csv"
+TITANS_FILE = Path(__file__).parent.parent.parent / "data" / "raw" / "live_service_titans.csv"
 OUTPUT_FILE = DATA_PROC  / "analysis_games.json"
 
 
@@ -66,7 +68,7 @@ def run() -> bool:
     results = {}
 
     # ── 1. Stats descriptives ─────────────────────────────────
-    log.info("[1/8] Statistiques descriptives")
+    log.info("[1/9] Statistiques descriptives")
     score_cols = ["metacritic", "rating_10", "composite_score", "playtime_hours", "ratings_count"]
     desc = df[score_cols].describe().round(2)
     results["descriptive_stats"] = {
@@ -75,8 +77,18 @@ def run() -> bool:
         if col in desc.columns
     }
 
-    # ── 2. Top 50 jeux les plus joués (par ratings_count = popularité) ────────
-    log.info("[2/8] Top 50 jeux les plus joués")
+    # ── 2. Intégration des Titans Live Service ────────────────
+    log.info("[2/9] Intégration des Titans du Live Service")
+    if TITANS_FILE.exists():
+        df_titans = pd.read_csv(TITANS_FILE)
+        results["live_titans"] = df_titans.to_dict(orient="records")
+        log.info(f"  -> {len(df_titans)} titans chargés.")
+    else:
+        log.warning(f"Fichier manquant : {TITANS_FILE}. Les titans ne seront pas affichés.")
+        results["live_titans"] = []
+
+    # ── 3. Top 50 jeux les plus joués (par ratings_count) ─────
+    log.info("[3/9] Top 50 jeux les plus joués (RAWG)")
     top_played = (
         df.dropna(subset=["ratings_count"])
         .nlargest(50, "ratings_count")[
@@ -88,8 +100,8 @@ def run() -> bool:
     top_played.insert(0, "rank", range(1, len(top_played) + 1))
     results["top50_most_played"] = top_played.to_dict(orient="records")
 
-    # ── 3. Top 50 jeux les plus appréciés (composite_score) ──────────────────
-    log.info("[3/8] Top 50 jeux les plus appréciés")
+    # ── 4. Top 50 jeux les plus appréciés (composite_score) ───
+    log.info("[4/9] Top 50 jeux les plus appréciés")
     top_appreciated = (
         df.dropna(subset=["composite_score"])
         .nlargest(50, "composite_score")[
@@ -102,8 +114,8 @@ def run() -> bool:
     top_appreciated.insert(0, "rank", range(1, len(top_appreciated) + 1))
     results["top50_most_appreciated"] = top_appreciated.to_dict(orient="records")
 
-    # ── 4. Analyse des genres ─────────────────────────────────
-    log.info("[4/8] Analyse des genres")
+    # ── 5. Analyse des genres ─────────────────────────────────
+    log.info("[5/9] Analyse des genres")
     genre_stats = (
         df.groupby("genre_primary").agg(
             nb_jeux          = ("name",            "count"),
@@ -126,8 +138,8 @@ def run() -> bool:
     adv_rows = genre_stats[genre_stats["genre_primary"].isin(adv_genres)]
     results["adventure_genre_rank"] = adv_rows[["genre_primary","rank","score_composite","nb_jeux"]].to_dict(orient="records")
 
-    # ── 5. Évolution temporelle ───────────────────────────────
-    log.info("[5/8] Évolution temporelle")
+    # ── 6. Évolution temporelle ───────────────────────────────
+    log.info("[6/9] Évolution temporelle")
     df_dated = df.dropna(subset=["release_year"])
     df_dated["release_year"] = df_dated["release_year"].astype(int)
 
@@ -157,15 +169,15 @@ def run() -> bool:
     )
     results["by_decade"] = by_decade.to_dict(orient="records")
 
-    # ── 6. Corrélations ───────────────────────────────────────
-    log.info("[6/8] Corrélations")
+    # ── 7. Corrélations ───────────────────────────────────────
+    log.info("[7/9] Corrélations")
     corr_cols = ["metacritic", "rating_10", "ratings_count", "playtime_hours"]
     df_corr   = df[corr_cols].dropna()
     corr      = df_corr.corr().round(3)
     results["correlations"] = {col: corr[col].to_dict() for col in corr_cols}
 
-    # ── 7. Analyse plateforme ─────────────────────────────────
-    log.info("[7/8] Analyse par plateforme")
+    # ── 8. Analyse plateforme ─────────────────────────────────
+    log.info("[8/9] Analyse par plateforme")
     plat_stats = (
         df.groupby("platform_primary").agg(
             nb_jeux        = ("name",            "count"),
@@ -180,8 +192,8 @@ def run() -> bool:
     )
     results["by_platform"] = plat_stats.to_dict(orient="records")
 
-    # ── 8. Outliers & cas intéressants ────────────────────────
-    log.info("[8/8] Outliers")
+    # ── 9. Outliers & cas intéressants ────────────────────────
+    log.info("[9/9] Outliers")
 
     # Jeux très populaires mais mal notés (populaires ≠ bons)
     pop_threshold  = df["ratings_count"].quantile(0.85)
@@ -209,9 +221,6 @@ def run() -> bool:
     log.info("─" * 55)
     log.info(f"[SAVE] ✅ {OUTPUT_FILE}")
     log.info(f"  → Top jeu joué : {results['top50_most_played'][0]['name'] if results['top50_most_played'] else 'N/A'}")
-    log.info(f"  → Top jeu apprécié : {results['top50_most_appreciated'][0]['name'] if results['top50_most_appreciated'] else 'N/A'}")
-    log.info(f"  → Genres analysés : {len(genre_stats)}")
-    log.info(f"  → Hidden gems trouvés : {len(hidden_gems)}")
     return True
 
 
