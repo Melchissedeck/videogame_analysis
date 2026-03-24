@@ -34,7 +34,11 @@ def render():
 
     k1, k2, k3, k4, k5 = st.columns(5)
     k1.metric("Capitalisation Top 50",  f"${mc.get('total_market_cap_bn', '—')} Mds")
-    k2.metric("Revenue annuel cumulé",  f"${mc.get('total_revenue_bn', '—')} Mds")
+    k2.metric(
+        "CA cumulé (Top 50)",  
+        f"${mc.get('total_revenue_bn', '—')} Mds",
+        help="Somme des CA. Attention : inclut des activités hors-jeu vidéo (conglomérats) et des doubles comptabilités (maison mère / filiales), ce qui explique qu'il dépasse le marché global."
+    )
     k3.metric("Joueurs dans le monde",  f"{geo_ov.get('total_players_millions', '—'):.0f} M" if geo_ov.get('total_players_millions') else "—")
     k4.metric("Revenue marché global",  f"${geo_ov.get('total_revenue_usd_bn', '—')} Mds")
     k5.metric("Concentration Top 5",    f"{mc.get('top5_cap_share_pct', '—')} %")
